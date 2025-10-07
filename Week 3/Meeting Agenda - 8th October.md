@@ -3,8 +3,8 @@ Date: Wednesday 8th October 2025
 Time: 13:00pm till 14:00pm   
 Location: Online   
 
-Attendees to attend: 
-Charlotte Smale-Holland (19313496)   
+Attendees to attend:    
+Charlotte Smale-Holland (19313496)      
 Ryan Hogan (19390270)   
 Gauthier Lihau (19207032)   
 Gonzalez Rodrigues (19271262)    
@@ -31,3 +31,4 @@ Issues to be solved:
 ---
 
 Date/Time of the following meeting - Wednesday 15th October 2025 (13:00pm till 14:00pm)
+
