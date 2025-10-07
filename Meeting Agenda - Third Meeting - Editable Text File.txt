@@ -1,0 +1,31 @@
+Meeting Agenda - Third Meeting
+Date: Wednesday 8th October 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+State of completion of actions:
+Allocated each member of the group a subsystem of the project, and discussed the functional requirements.
+Improved each of our quality requirements analysis, based on the feedback and questions, when we reported the requirements to the group at the last meeting. 
+
+Report on quality requirements:
+Each member of the group will come to the meeting with their finalised analysis document outlining the quality requirements of their chosen subsystem.
+We will all cross-check each of our quality requirements analysis, so we can see if any minor improvements need to be made before they get uploaded to GitHub. 
+
+Actions to take place after the meeting:
+We will upload each of our finalised quality requirements analysis to Git Hub.
+We will plan how each of us will develop a draft of our use case models for each subsystem. 
+We will also remind each other to upload our draft use case models to the GitHub repository, so they can be cross-checked during next week’s meeting. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+
+Date/Time of the following meeting - Wednesday 15th October 2025 (13:00pm till 14:00pm)
