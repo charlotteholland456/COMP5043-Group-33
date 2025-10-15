@@ -17,7 +17,7 @@ State of completion of actions:
 - Begun drafting our allocated subsystem's UML diagrams. 
 
 UML and Activity Model diagrams:
-- Each member of the group will come to the meeting with their draft UML diagrams.
+- Each member of the group will come to the meeting with their draft Use Case diagrams.
 - We will all cross-check each other's diagrams to ensure cohesion between the subsystems and outline any potential improvements.    
 
 Subsystem's Data:
@@ -25,7 +25,7 @@ Subsystem's Data:
 - The group will discuss these points and identify connections between the subsystems that then may be outlined in the UML diagrams.  
   
 Actions to take place after the meeting:
-- We will continue to work on our UML diagrams, implementing any changes or suggestions from the meeting.
+- We will continue to work on our Use Case diagrams, implementing any changes or suggestions from the meeting.
 - We will start working on the activity model diagrams. 
 
 Issues to be solved:
