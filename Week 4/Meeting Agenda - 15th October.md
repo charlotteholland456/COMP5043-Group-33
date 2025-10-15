@@ -22,7 +22,7 @@ UML and Activity Model diagrams:
 
 Subsystem's Data:
 - Each member of the group will come to the meeting with brief points regarding where the data required by their subsystem to respond to users' requests should come from.
-- The group will discuss these points and identify connections between the subsystems that then may be outlined in the UML and Activity Model diagrams.  
+- The group will discuss these points and identify connections between the subsystems that then may be outlined in the UML diagrams.  
   
 Actions to take place after the meeting:
 - We will continue to work on our UML and Activity Model diagrams, implementing any changes or suggestions from the meeting.
