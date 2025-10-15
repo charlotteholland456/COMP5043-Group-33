@@ -14,7 +14,7 @@ Gonzalez Rodrigues (19271262)
 State of completion of actions:
 - Completed our quality requirements analysis and implemented feedback from the group during the last meeting.
 - Uploaded our quality requirements analysis documents to the group GitHub repository.
-- Begun drafting our allocated subsystem's UML and Activity Model diagrams. 
+- Begun drafting our allocated subsystem's UML diagrams. 
 
 UML and Activity Model diagrams:
 - Each member of the group will come to the meeting with their draft UML diagrams.
