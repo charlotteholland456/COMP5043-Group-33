@@ -25,7 +25,8 @@ Subsystem's Data:
 - The group will discuss these points and identify connections between the subsystems that then may be outlined in the UML diagrams.  
   
 Actions to take place after the meeting:
-- We will continue to work on our UML and Activity Model diagrams, implementing any changes or suggestions from the meeting.
+- We will continue to work on our UML and diagrams, implementing any changes or suggestions from the meeting.
+- We will start working on the activity model diagrams. 
 
 Issues to be solved:
 - Discuss any confusion and uncertainties related to the collaborative project. 
