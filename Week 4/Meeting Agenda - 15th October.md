@@ -17,7 +17,7 @@ State of completion of actions:
 - Begun drafting our allocated subsystem's UML and Activity Model diagrams. 
 
 UML and Activity Model diagrams:
-- Each member of the group will come to the meeting with their draft UML and Activity Model diagrams.
+- Each member of the group will come to the meeting with their draft UML diagrams.
 - We will all cross-check each other's diagrams to ensure cohesion between the subsystems and outline any potential improvements.    
 
 Subsystem's Data:
