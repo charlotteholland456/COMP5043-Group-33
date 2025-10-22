@@ -1,0 +1,37 @@
+Meeting Agenda - Fifth Meeting
+Date: Wednesday 22nd October 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+State of completion of actions:
+Each of us finished our use case diagrams based on the recommendations from the cross-checking in the previous meeting. 
+We have individually produced our draft activity diagrams for each of the subsystems.  
+
+Activity Diagrams:
+Each of us will come to the meeting with our draft activity model diagrams.
+We will cross-check each others’ draft activity diagrams, so amendments can be made if need be. 
+
+Discuss Papyrus issues:
+Discuss how to clone the Papyrus to the GitHub repository. 
+
+Actions to take place after the meeting:
+Commit from papyrus the use case diagrams and potentially the draft activity diagrams, so they can be cross-checked again in the next meeting. 
+We will do research into how to develop the system architecture models. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project.
+Identify any issues that require further clarification from the lecturer or through additional research.
+
+Date/Time of the following meeting - Wednesday 29th October 2025 (13:00pm till 14:00pm)
+
+
