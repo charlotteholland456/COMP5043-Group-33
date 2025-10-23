@@ -22,6 +22,19 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="__bUnUrAtEfCwDIzn2lPEGg" y="15"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="__bVOYLAtEfCwDIzn2lPEGg" type="Classifier_UseCaseCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_YbAwULA0EfCH4bqdd-Q0JA" type="UseCase_Shape_CCN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_YbB-cLA0EfCH4bqdd-Q0JA" type="UseCase_NameLabel_CCN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_YbB-cbA0EfCH4bqdd-Q0JA" type="UseCase_FloatingNameLabel_CCN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YbB-crA0EfCH4bqdd-Q0JA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_YbIsILA0EfCH4bqdd-Q0JA" type="UseCase_ExtensionPointCompartment_CCN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_YbIsIbA0EfCH4bqdd-Q0JA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_YbIsIrA0EfCH4bqdd-Q0JA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YbIsI7A0EfCH4bqdd-Q0JA"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="USUStudentApplication-Use%20Case%20Diagram.uml#_YawRoLA0EfCH4bqdd-Q0JA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YbAwUbA0EfCH4bqdd-Q0JA" x="34" y="34"/>
+      </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="__bVOYbAtEfCwDIzn2lPEGg"/>
     </children>
     <element xmi:type="uml:Component" href="USUStudentApplication-Use%20Case%20Diagram.uml#__bEIoLAtEfCwDIzn2lPEGg"/>
@@ -33,4 +46,17 @@
     <owner xmi:type="uml:Model" href="USUStudentApplication-Use%20Case%20Diagram.uml#_e3sZgLAsEfCmlLfJy_rVkw"/>
   </styles>
   <element xmi:type="uml:Model" href="USUStudentApplication-Use%20Case%20Diagram.uml#_e3sZgLAsEfCmlLfJy_rVkw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_ak0VcLA0EfCH4bqdd-Q0JA" type="Association_Edge" source="_SpilILAtEfCmlLfJy_rVkw" target="_YbAwULA0EfCH4bqdd-Q0JA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ak0Vc7A0EfCH4bqdd-Q0JA" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ak0VdLA0EfCH4bqdd-Q0JA" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ak08gLA0EfCH4bqdd-Q0JA" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ak08gbA0EfCH4bqdd-Q0JA" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ak0VcbA0EfCH4bqdd-Q0JA"/>
+    <element xmi:type="uml:Association" href="USUStudentApplication-Use%20Case%20Diagram.uml#_aknhILA0EfCH4bqdd-Q0JA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ak0VcrA0EfCH4bqdd-Q0JA" points="[161, 220, -643984, -643984]$[304, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_algR8LA0EfCH4bqdd-Q0JA" id="(1.0,0.37267080745341613)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_algR8bA0EfCH4bqdd-Q0JA" id="(0.02857142857142857,0.6666666666666666)"/>
+  </edges>
 </notation:Diagram>

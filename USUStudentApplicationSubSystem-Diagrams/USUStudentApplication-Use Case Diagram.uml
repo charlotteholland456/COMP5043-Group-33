@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_e3sZgLAsEfCmlLfJy_rVkw" name="USUStudentApplication-Use Case Diagram">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_e3sZgLAsEfCmlLfJy_rVkw" name="USUStudentApplication-Use Case Diagram">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_e-b6sLAsEfCmlLfJy_rVkw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_SpYNELAtEfCmlLfJy_rVkw" name="User-Student"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem" useCase="_YawRoLA0EfCH4bqdd-Q0JA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YawRoLA0EfCH4bqdd-Q0JA" name="Quit Society" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aknhILA0EfCH4bqdd-Q0JA" memberEnd="_aktAsLA0EfCH4bqdd-Q0JA _akuO0LA0EfCH4bqdd-Q0JA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aksZoLA0EfCH4bqdd-Q0JA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aksZobA0EfCH4bqdd-Q0JA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aktAsLA0EfCH4bqdd-Q0JA" name="quit society" type="_YawRoLA0EfCH4bqdd-Q0JA" association="_aknhILA0EfCH4bqdd-Q0JA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_akuO0LA0EfCH4bqdd-Q0JA" name="user-student" type="_SpYNELAtEfCmlLfJy_rVkw" association="_aknhILA0EfCH4bqdd-Q0JA"/>
+  </packagedElement>
 </uml:Model>
