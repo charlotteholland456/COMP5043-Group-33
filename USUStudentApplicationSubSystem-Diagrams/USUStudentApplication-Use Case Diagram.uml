@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_e3sZgLAsEfCmlLfJy_rVkw" name="USUStudentApplication-Use Case Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_e-b6sLAsEfCmlLfJy_rVkw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_SpYNELAtEfCmlLfJy_rVkw" name="User-Student"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem"/>
+</uml:Model>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_N60MMLAtEfCmlLfJy_rVkw" type="UseCase" name="USUStudentApplicationUseCaseDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_SpilILAtEfCmlLfJy_rVkw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SpoEsLAtEfCmlLfJy_rVkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SpoEsbAtEfCmlLfJy_rVkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SporwLAtEfCmlLfJy_rVkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SporwbAtEfCmlLfJy_rVkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SporwrAtEfCmlLfJy_rVkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sporw7AtEfCmlLfJy_rVkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SporxLAtEfCmlLfJy_rVkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SporxbAtEfCmlLfJy_rVkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="USUStudentApplication-Use%20Case%20Diagram.uml#_SpYNELAtEfCmlLfJy_rVkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SpilIbAtEfCmlLfJy_rVkw" x="80" y="160" width="81" height="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__bTZMLAtEfCwDIzn2lPEGg" type="Classifier_SubjectShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__bUnULAtEfCwDIzn2lPEGg" type="Classifier_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__bUnUbAtEfCwDIzn2lPEGg" type="Classifier_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__bUnUrAtEfCwDIzn2lPEGg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__bVOYLAtEfCwDIzn2lPEGg" type="Classifier_UseCaseCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__bVOYbAtEfCwDIzn2lPEGg"/>
+    </children>
+    <element xmi:type="uml:Component" href="USUStudentApplication-Use%20Case%20Diagram.uml#__bEIoLAtEfCwDIzn2lPEGg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__bTZMbAtEfCwDIzn2lPEGg" x="260" y="80" width="321" height="401"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_N60MMbAtEfCmlLfJy_rVkw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_N60MMrAtEfCmlLfJy_rVkw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_N60MM7AtEfCmlLfJy_rVkw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="USUStudentApplication-Use%20Case%20Diagram.uml#_e3sZgLAsEfCmlLfJy_rVkw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="USUStudentApplication-Use%20Case%20Diagram.uml#_e3sZgLAsEfCmlLfJy_rVkw"/>
+</notation:Diagram>
