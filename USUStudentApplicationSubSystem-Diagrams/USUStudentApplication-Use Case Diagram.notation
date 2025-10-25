@@ -280,7 +280,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-LjxbHTEfCGxr5Yw3rBZg"/>
         </children>
         <element xmi:type="uml:UseCase" href="USUStudentApplication-Use%20Case%20Diagram.uml#_C-E2ELHTEfCGxr5Yw3rBZg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-K8sbHTEfCGxr5Yw3rBZg" x="774" y="514" width="161" height="41"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-K8sbHTEfCGxr5Yw3rBZg" x="774" y="454" width="161" height="61"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_0n03ULHUEfCGxr5Yw3rBZg" type="UseCase_Shape_CCN">
         <children xmi:type="notation:DecorationNode" xmi:id="_0n03UrHUEfCGxr5Yw3rBZg" type="UseCase_NameLabel_CCN"/>
@@ -618,7 +618,22 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_fpbqcbHXEfCGxr5Yw3rBZg"/>
     <element xmi:type="uml:Extend" href="USUStudentApplication-Use%20Case%20Diagram.uml#_fpUVsLHXEfCGxr5Yw3rBZg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fpbqcrHXEfCGxr5Yw3rBZg" points="[1020, 652, -643984, -643984]$[1100, 660, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fpoewLHXEfCGxr5Yw3rBZg" id="(0.9929078014184397,0.5245901639344263)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fpoewLHXEfCGxr5Yw3rBZg" id="(0.9645390070921985,0.32786885245901637)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fpoewbHXEfCGxr5Yw3rBZg" id="(0.0,0.4878048780487805)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_eGoLMLHoEfCmPIezkwx3Eg" type="Include_Edge" source="_AIlPoLHTEfCGxr5Yw3rBZg" target="_C-K8sLHTEfCGxr5Yw3rBZg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eGoLM7HoEfCmPIezkwx3Eg" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_eaVKULHoEfCmPIezkwx3Eg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eGoLNLHoEfCmPIezkwx3Eg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eGoLNbHoEfCmPIezkwx3Eg" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_eacfELHoEfCmPIezkwx3Eg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eGoLNrHoEfCmPIezkwx3Eg" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eGoLMbHoEfCmPIezkwx3Eg"/>
+    <element xmi:type="uml:Include" href="USUStudentApplication-Use%20Case%20Diagram.uml#_eGfoULHoEfCmPIezkwx3Eg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eGoLMrHoEfCmPIezkwx3Eg" points="[1017, 660, -643984, -643984]$[1160, 660, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eG4p4LHoEfCmPIezkwx3Eg" id="(0.9716312056737588,0.6557377049180327)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eG4p4bHoEfCmPIezkwx3Eg" id="(0.37267080745341613,0.975609756097561)"/>
   </edges>
 </notation:Diagram>

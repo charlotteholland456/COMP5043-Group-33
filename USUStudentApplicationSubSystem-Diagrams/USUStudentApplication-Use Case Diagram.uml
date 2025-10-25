@@ -55,9 +55,11 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AIfJALHTEfCGxr5Yw3rBZg" name="Register to Event " subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_fpUVsLHXEfCGxr5Yw3rBZg" extendedCase="_C-E2ELHTEfCGxr5Yw3rBZg" extensionLocation="_fpVj0LHXEfCGxr5Yw3rBZg"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_elSs4LHXEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_eGfoULHoEfCmPIezkwx3Eg" addition="_C-E2ELHTEfCGxr5Yw3rBZg"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_C-E2ELHTEfCGxr5Yw3rBZg" name="Buy Tickets for Event " subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fpVj0LHXEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cmU2ELHoEfCmPIezkwx3Eg" name="ExtensionPoint2"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0nuJoLHUEfCGxr5Yw3rBZg" name="Select Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_78xEkLHUEfCGxr5Yw3rBZg" extendedCase="_DNivELHLEfCGxr5Yw3rBZg" extensionLocation="_781WALHUEfCGxr5Yw3rBZg"/>
@@ -105,5 +107,9 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_UUt08bHXEfCGxr5Yw3rBZg" name="search for events" type="_2aq1ULHREfCGxr5Yw3rBZg" association="_UUr_wLHXEfCGxr5Yw3rBZg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_UUvDELHXEfCGxr5Yw3rBZg" name="user-student" type="_SpYNELAtEfCmlLfJy_rVkw" association="_UUr_wLHXEfCGxr5Yw3rBZg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_lUBqMLHhEfCmPIezkwx3Eg" name="Registering for Events"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_NG1woLHlEfCmPIezkwx3Eg" name="Activity11" group="_Oq16ALHlEfCmPIezkwx3Eg">
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Oq16ALHlEfCmPIezkwx3Eg" name="Hello"/>
   </packagedElement>
 </uml:Model>
