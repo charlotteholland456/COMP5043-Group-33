@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jm-FoK53EfCS_rAY7lfuQQ" name="UseCase(Ultimate)">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_RXBpwK5_EfCy7LlARt0Vrg">
+    <body>Non-Functional Constraints:
+
+- System Uptime to 99.95%
+- Response Time &lt;= 3 seconds.
+- Must comply with UK GDPR
+- Must conform to WCAG 2.1 (Accessibility)</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jv9pkK53EfCS_rAY7lfuQQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O1M4IK59EfCy7LlARt0Vrg" name="USU Officer"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hH5zcK59EfCy7LlARt0Vrg" name="USU OS System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_t6OPYK59EfCy7LlARt0Vrg" name="Manage Events">
+      <include xmi:type="uml:Include" xmi:id="_LJNSEK5-EfCy7LlARt0Vrg" addition="_Gu0xcK5-EfCy7LlARt0Vrg"/>
+      <include xmi:type="uml:Include" xmi:id="_XNgKYK5-EfCy7LlARt0Vrg" addition="_NOAbYK5-EfCy7LlARt0Vrg"/>
+      <include xmi:type="uml:Include" xmi:id="_YKc60K5-EfCy7LlARt0Vrg" addition="_SZr2EK5-EfCy7LlARt0Vrg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Gu0xcK5-EfCy7LlARt0Vrg" name="Perform Role-Based Authorization"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NOAbYK5-EfCy7LlARt0Vrg" name="Encrypt Data Transmission"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SZr2EK5-EfCy7LlARt0Vrg" name="Log Officer Action"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dOzlgK5-EfCy7LlARt0Vrg" name="View Audit Logs"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kLGpQK5-EfCy7LlARt0Vrg" name="Create System Backup"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nsvkAK5-EfCy7LlARt0Vrg" name="Propagate Updates"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wzx2cK59EfCy7LlARt0Vrg" memberEnd="_wz2u8K59EfCy7LlARt0Vrg _wz5LMK59EfCy7LlARt0Vrg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wz05wK59EfCy7LlARt0Vrg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wz1g0K59EfCy7LlARt0Vrg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wz2u8K59EfCy7LlARt0Vrg" name="manage events" type="_t6OPYK59EfCy7LlARt0Vrg" association="_wzx2cK59EfCy7LlARt0Vrg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wz5LMK59EfCy7LlARt0Vrg" name="usu officer" type="_O1M4IK59EfCy7LlARt0Vrg" association="_wzx2cK59EfCy7LlARt0Vrg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iX2i8K5-EfCy7LlARt0Vrg" memberEnd="_iX3xEq5-EfCy7LlARt0Vrg _iX4YIK5-EfCy7LlARt0Vrg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iX3xEK5-EfCy7LlARt0Vrg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iX3xEa5-EfCy7LlARt0Vrg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iX3xEq5-EfCy7LlARt0Vrg" name="view audit logs" type="_dOzlgK5-EfCy7LlARt0Vrg" association="_iX2i8K5-EfCy7LlARt0Vrg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iX4YIK5-EfCy7LlARt0Vrg" name="usu officer" type="_O1M4IK59EfCy7LlARt0Vrg" association="_iX2i8K5-EfCy7LlARt0Vrg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q9Y1YK5-EfCy7LlARt0Vrg" memberEnd="_q9aDgK5-EfCy7LlARt0Vrg _q9aDga5-EfCy7LlARt0Vrg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q9ZccK5-EfCy7LlARt0Vrg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q9Zcca5-EfCy7LlARt0Vrg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q9aDgK5-EfCy7LlARt0Vrg" name="create system backup" type="_kLGpQK5-EfCy7LlARt0Vrg" association="_q9Y1YK5-EfCy7LlARt0Vrg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q9aDga5-EfCy7LlARt0Vrg" name="usu officer" type="_O1M4IK59EfCy7LlARt0Vrg" association="_q9Y1YK5-EfCy7LlARt0Vrg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r0Yu0K5-EfCy7LlARt0Vrg" memberEnd="_r0Z88a5-EfCy7LlARt0Vrg _r0akAK5-EfCy7LlARt0Vrg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r0ZV4K5-EfCy7LlARt0Vrg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r0Z88K5-EfCy7LlARt0Vrg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r0Z88a5-EfCy7LlARt0Vrg" name="propagate updates" type="_nsvkAK5-EfCy7LlARt0Vrg" association="_r0Yu0K5-EfCy7LlARt0Vrg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r0akAK5-EfCy7LlARt0Vrg" name="usu officer" type="_O1M4IK59EfCy7LlARt0Vrg" association="_r0Yu0K5-EfCy7LlARt0Vrg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ujJTwK6BEfCy7LlARt0Vrg" name="Activity9" node="_NOxD0K6TEfCy7LlARt0Vrg _f20ZgK6SEfCy7LlARt0Vrg _Zkb1cK6SEfCy7LlARt0Vrg _Tnf88K6SEfCy7LlARt0Vrg _muvwEK6REfCy7LlARt0Vrg _Jcn50K6REfCy7LlARt0Vrg _ybguoK6QEfCy7LlARt0Vrg _bK5u4K6QEfCy7LlARt0Vrg _tzv2IK6MEfCy7LlARt0Vrg _PF8sEK6MEfCy7LlARt0Vrg _xMa3kK6LEfCy7LlARt0Vrg _asZAMK6LEfCy7LlARt0Vrg _muZO8K6KEfCy7LlARt0Vrg _uk5toK6JEfCy7LlARt0Vrg _xZJzYK6IEfCy7LlARt0Vrg _u0G5MK6HEfCy7LlARt0Vrg _wS3k8K6BEfCy7LlARt0Vrg" group="_mK8n0K6DEfCy7LlARt0Vrg _9Tj-oK6CEfCy7LlARt0Vrg _NlQEcK6DEfCy7LlARt0Vrg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_T7LScK6IEfCy7LlARt0Vrg" target="_u0G5MK6HEfCy7LlARt0Vrg" source="_wS3k8K6BEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JU9aUK6LEfCy7LlARt0Vrg" name="NO" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_muZO8K6KEfCy7LlARt0Vrg" source="_uk5toK6JEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ya8iAK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_uk5toK6JEfCy7LlARt0Vrg" source="_u0G5MK6HEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_atCgcK6LEfCy7LlARt0Vrg" name="YES" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_asZAMK6LEfCy7LlARt0Vrg" source="_uk5toK6JEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_xMa3kK6LEfCy7LlARt0Vrg" source="_muZO8K6KEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PGuvMK6MEfCy7LlARt0Vrg" target="_PF8sEK6MEfCy7LlARt0Vrg" source="_asZAMK6LEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2mYJYK6MEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_tzv2IK6MEfCy7LlARt0Vrg" source="_PF8sEK6MEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oQJG0K6QEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_bK5u4K6QEfCy7LlARt0Vrg" source="_tzv2IK6MEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ycZfcK6QEfCy7LlARt0Vrg" name="YES" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_ybguoK6QEfCy7LlARt0Vrg" source="_bK5u4K6QEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PVfKoK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_Jcn50K6REfCy7LlARt0Vrg" source="_ybguoK6QEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cl2NcK6REfCy7LlARt0Vrg" name="NO" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_Jcn50K6REfCy7LlARt0Vrg" source="_bK5u4K6QEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mv9RAK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_muvwEK6REfCy7LlARt0Vrg" source="_Jcn50K6REfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZldwMK6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_Zkb1cK6SEfCy7LlARt0Vrg" source="_Tnf88K6SEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f38a4K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_f20ZgK6SEfCy7LlARt0Vrg" source="_Zkb1cK6SEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tVAc8K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_f20ZgK6SEfCy7LlARt0Vrg" source="_muvwEK6REfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yPD8IK6SEfCy7LlARt0Vrg" name="(Result) Admin" target="_xZJzYK6IEfCy7LlARt0Vrg" source="_f20ZgK6SEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NQErYK6TEfCy7LlARt0Vrg" target="_NOxD0K6TEfCy7LlARt0Vrg" source="_xZJzYK6IEfCy7LlARt0Vrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_9Tj-oK6CEfCy7LlARt0Vrg" name="&quot;USU Administrator&quot; as Admin" node="_u0G5MK6HEfCy7LlARt0Vrg _uk5toK6JEfCy7LlARt0Vrg _muZO8K6KEfCy7LlARt0Vrg _asZAMK6LEfCy7LlARt0Vrg _xMa3kK6LEfCy7LlARt0Vrg" edge="_JU9aUK6LEfCy7LlARt0Vrg _Ya8iAK6LEfCy7LlARt0Vrg _atCgcK6LEfCy7LlARt0Vrg _5TDAcK6LEfCy7LlARt0Vrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_NlQEcK6DEfCy7LlARt0Vrg" name="&quot;USU OS&quot; as System" node="_PF8sEK6MEfCy7LlARt0Vrg _tzv2IK6MEfCy7LlARt0Vrg _bK5u4K6QEfCy7LlARt0Vrg _ybguoK6QEfCy7LlARt0Vrg _Jcn50K6REfCy7LlARt0Vrg _muvwEK6REfCy7LlARt0Vrg _Tnf88K6SEfCy7LlARt0Vrg _Zkb1cK6SEfCy7LlARt0Vrg _f20ZgK6SEfCy7LlARt0Vrg" edge="_2mYJYK6MEfCy7LlARt0Vrg _oQJG0K6QEfCy7LlARt0Vrg _ycZfcK6QEfCy7LlARt0Vrg _PVfKoK6REfCy7LlARt0Vrg _cl2NcK6REfCy7LlARt0Vrg _mv9RAK6REfCy7LlARt0Vrg _ZldwMK6SEfCy7LlARt0Vrg _f38a4K6SEfCy7LlARt0Vrg _tVAc8K6SEfCy7LlARt0Vrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_mK8n0K6DEfCy7LlARt0Vrg" name="USU Administrator" node="_xZJzYK6IEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_wS3k8K6BEfCy7LlARt0Vrg" name="Initial Node" outgoing="_T7LScK6IEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_u0G5MK6HEfCy7LlARt0Vrg" name="Select Option to Create, Modify or Delete Event" incoming="_T7LScK6IEfCy7LlARt0Vrg" outgoing="_Ya8iAK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_xZJzYK6IEfCy7LlARt0Vrg" name="Display Success Message/Updated Event List" incoming="_yPD8IK6SEfCy7LlARt0Vrg" outgoing="_NQErYK6TEfCy7LlARt0Vrg" inPartition="_mK8n0K6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_uk5toK6JEfCy7LlARt0Vrg" name="Is ADM Authorized?" incoming="_Ya8iAK6LEfCy7LlARt0Vrg" outgoing="_JU9aUK6LEfCy7LlARt0Vrg _atCgcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_A6j2UK6KEfCy7LlARt0Vrg">
+        <body>@startuml ActivityDiagram_ManageEvents
+
+title Activity Diagram: Manage Events
+
+' Define the starting point of the flow
+start
+
+' Define the Actor (Admin) and the System Swimlanes
+partition &quot;USU Administrator&quot; as Admin {
+  :Select Option to Create, Modify, or Delete Event;
+  
+  ' Decision node for authorization (RBAC)
+  if (Is Administrator Authorized?) then (Yes)
+    :Input Event Details / Apply Changes;
+    
+    ' Transition to the System Partition
+    -> [Submit Action] System;
+  else (No)
+    :Display &quot;Authorization Failed&quot; Message;
+    stop
+  endif
+}
+
+partition &quot;USU OS System&quot; as System {
+  
+  ' Fork: Parallel processing for data handling and logging
+  fork
+    :Apply Event Changes to Database;
+    
+    ' Activity corresponding to the &lt;&lt;include>> Encryption
+    :Encrypt Event Data for Storage and Transmission;
+    
+    ' Decision node for required synchronization
+    if (Update Requires Synchronization?) then (Yes)
+      :Propagate Updates to Relevant Interfaces (Synchronization);
+    else (No)
+    endif
+    
+    :Confirm Event Saved Successfully;
+  fork again
+    ' Activity corresponding to the &lt;&lt;include>> Logs
+    :Generate Audit Log of Administrator Action (Log Officer Action);
+    
+    :Export Log in JSON/CVS format;
+  end fork
+  
+  :Event Management Complete;
+  
+  ' Transition back to the Admin Partition
+  -> [Result] Admin;
+}
+
+partition &quot;USU Administrator&quot; {
+  :Display Success Message / Updated Event List;
+}
+
+' Define the ending point of the flow
+stop
+
+@enduml</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_muZO8K6KEfCy7LlARt0Vrg" name="Display &quot;Authorization Failed&quot; Message" incoming="_JU9aUK6LEfCy7LlARt0Vrg" outgoing="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_asZAMK6LEfCy7LlARt0Vrg" name="Apply Changes" incoming="_atCgcK6LEfCy7LlARt0Vrg" outgoing="_PGuvMK6MEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_xMa3kK6LEfCy7LlARt0Vrg" name="ActivityFinalNode14" incoming="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PF8sEK6MEfCy7LlARt0Vrg" name="Apply Event Changes to Database" incoming="_PGuvMK6MEfCy7LlARt0Vrg" outgoing="_2mYJYK6MEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tzv2IK6MEfCy7LlARt0Vrg" name="Encrypt Event for Storage and Transmission" incoming="_2mYJYK6MEfCy7LlARt0Vrg" outgoing="_oQJG0K6QEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_bK5u4K6QEfCy7LlARt0Vrg" name="Update Requires Synchronization?" incoming="_oQJG0K6QEfCy7LlARt0Vrg" outgoing="_ycZfcK6QEfCy7LlARt0Vrg _cl2NcK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ybguoK6QEfCy7LlARt0Vrg" name="Propagate Update to Relevants Interfaces (Synchronization)" incoming="_ycZfcK6QEfCy7LlARt0Vrg" outgoing="_PVfKoK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Jcn50K6REfCy7LlARt0Vrg" name="" incoming="_PVfKoK6REfCy7LlARt0Vrg _cl2NcK6REfCy7LlARt0Vrg" outgoing="_mv9RAK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_muvwEK6REfCy7LlARt0Vrg" name="Confirm Event Saved Successfully" incoming="_mv9RAK6REfCy7LlARt0Vrg" outgoing="_tVAc8K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Tnf88K6SEfCy7LlARt0Vrg" name="Generate Audit Log of ADM Action (Log Officer Action)" outgoing="_ZldwMK6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Zkb1cK6SEfCy7LlARt0Vrg" name="Export Log in JSON/CVS format" incoming="_ZldwMK6SEfCy7LlARt0Vrg" outgoing="_f38a4K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f20ZgK6SEfCy7LlARt0Vrg" name="Event Management Complete" incoming="_f38a4K6SEfCy7LlARt0Vrg _tVAc8K6SEfCy7LlARt0Vrg" outgoing="_yPD8IK6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_NOxD0K6TEfCy7LlARt0Vrg" name="" incoming="_NQErYK6TEfCy7LlARt0Vrg"/>
+  </packagedElement>
+</uml:Model>
