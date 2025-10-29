@@ -1,0 +1,35 @@
+Meeting Agenda - Sixth Meeting
+Date: Wednesday 29th October 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+State of Completed Actions:
+Each of us have finalised our use case and activity diagrams based on the feedback from cross-checking.
+We have done research into creating the Software Architecture diagrams. 
+
+Cross-Checking Charlotte’s Diagrams:
+Charlotte will show us her draft use case diagram for the USU Student Application subsystem. 
+Everyone else will cross-check her diagram and provide feedback, so that she can finalise her diagram for next week. 
+
+Discuss the process on cloning the Papyrus and Github:
+Ryan and Charlotte will help the rest of our team with pushing commits through papyrus. 
+We will discuss the issue that occurred with the metadata, so that it doesn’t happen again.  
+
+Actions to take place after the meeting:
+The rest of the team will commit from papyrus the use case diagrams and activity diagrams
+We will all start planning our system architecture models, so they can be cross-checked in the upcoming meeting. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+Date/Time of the following meeting - Wednesday 5th November 2025 (13:00pm till 14:00pm)
+
+
