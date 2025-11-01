@@ -4,16 +4,17 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_SpYNELAtEfCmlLfJy_rVkw" name="User-Student"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem" useCase="_E7m8oLDJEfCkddQUiDMVqw _MabeoLDJEfCkddQUiDMVqw _Rp0UoLDJEfCkddQUiDMVqw _VCHGILDJEfCkddQUiDMVqw _V0LIcLHKEfCGxr5Yw3rBZg _dAb60LHKEfCGxr5Yw3rBZg _qEaugLHKEfCGxr5Yw3rBZg _yGRFELHKEfCGxr5Yw3rBZg _DNivELHLEfCGxr5Yw3rBZg _iukF0LHLEfCGxr5Yw3rBZg _k39bQLHLEfCGxr5Yw3rBZg _nK68YLHLEfCGxr5Yw3rBZg _Z7kXcLHREfCGxr5Yw3rBZg _dYz6YLHREfCGxr5Yw3rBZg _nyENMLHREfCGxr5Yw3rBZg _2aq1ULHREfCGxr5Yw3rBZg _5nc6YLHREfCGxr5Yw3rBZg _7ad6sLHSEfCGxr5Yw3rBZg _AIfJALHTEfCGxr5Yw3rBZg _C-E2ELHTEfCGxr5Yw3rBZg _0nuJoLHUEfCGxr5Yw3rBZg">
+  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem" useCase="_E7m8oLDJEfCkddQUiDMVqw _MabeoLDJEfCkddQUiDMVqw _Rp0UoLDJEfCkddQUiDMVqw _VCHGILDJEfCkddQUiDMVqw _V0LIcLHKEfCGxr5Yw3rBZg _dAb60LHKEfCGxr5Yw3rBZg _qEaugLHKEfCGxr5Yw3rBZg _yGRFELHKEfCGxr5Yw3rBZg _DNivELHLEfCGxr5Yw3rBZg _iukF0LHLEfCGxr5Yw3rBZg _k39bQLHLEfCGxr5Yw3rBZg _nK68YLHLEfCGxr5Yw3rBZg _Z7kXcLHREfCGxr5Yw3rBZg _dYz6YLHREfCGxr5Yw3rBZg _nyENMLHREfCGxr5Yw3rBZg _2aq1ULHREfCGxr5Yw3rBZg _5nc6YLHREfCGxr5Yw3rBZg _7ad6sLHSEfCGxr5Yw3rBZg _AIfJALHTEfCGxr5Yw3rBZg _C-E2ELHTEfCGxr5Yw3rBZg _0nuJoLHUEfCGxr5Yw3rBZg _eARXMLdcEfCLbcY3zun7nw">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_E7m8oLDJEfCkddQUiDMVqw" name="Search for Societies" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <extend xmi:type="uml:Extend" xmi:id="_dsbK4LDJEfCkddQUiDMVqw" extendedCase="_Rp0UoLDJEfCkddQUiDMVqw" extensionLocation="_dsfcULDJEfCkddQUiDMVqw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_f8aQgLDJEfCkddQUiDMVqw" extendedCase="_MabeoLDJEfCkddQUiDMVqw" extensionLocation="_f8a3kLDJEfCkddQUiDMVqw"/>
+      <include xmi:type="uml:Include" xmi:id="_tw9owLdcEfCLbcY3zun7nw" addition="_eARXMLdcEfCLbcY3zun7nw"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MabeoLDJEfCkddQUiDMVqw" name="Subscribe to Society Information" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_f8a3kLDJEfCkddQUiDMVqw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kzAPQLdcEfCLbcY3zun7nw" name="ExtensionPoint2"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Rp0UoLDJEfCkddQUiDMVqw" name="Join a Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dsfcULDJEfCkddQUiDMVqw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QGj_8LddEfCLbcY3zun7nw" name="ExtensionPoint3"/>
       <include xmi:type="uml:Include" xmi:id="_hMdjILDJEfCkddQUiDMVqw" addition="_VCHGILDJEfCkddQUiDMVqw"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VCHGILDJEfCkddQUiDMVqw" name="Ensure Affiliation to Union" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
@@ -22,7 +23,7 @@
       <include xmi:type="uml:Include" xmi:id="_WNQgYLHWEfCGxr5Yw3rBZg" addition="_dAb60LHKEfCGxr5Yw3rBZg"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dAb60LHKEfCGxr5Yw3rBZg" name="Assigned Membership ID" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qEaugLHKEfCGxr5Yw3rBZg" name="Grant System Access as Student" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qEaugLHKEfCGxr5Yw3rBZg" name="Granted Student Access" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yGRFELHKEfCGxr5Yw3rBZg" name="Quit from Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9ChLsbHUEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
     </ownedUseCase>
@@ -38,7 +39,7 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Z7kXcLHREfCGxr5Yw3rBZg" name="Create a New Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <include xmi:type="uml:Include" xmi:id="_zBuKQLHWEfCGxr5Yw3rBZg" addition="_nyENMLHREfCGxr5Yw3rBZg"/>
     </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dYz6YLHREfCGxr5Yw3rBZg" name="Provide Society Details" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dYz6YLHREfCGxr5Yw3rBZg" name="Providing Society Details" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nyENMLHREfCGxr5Yw3rBZg" name="Submit Application to Union" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <include xmi:type="uml:Include" xmi:id="_-TVBYLHWEfCGxr5Yw3rBZg" addition="_dYz6YLHREfCGxr5Yw3rBZg"/>
     </ownedUseCase>
@@ -55,7 +56,6 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AIfJALHTEfCGxr5Yw3rBZg" name="Register to Event " subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_fpUVsLHXEfCGxr5Yw3rBZg" extendedCase="_C-E2ELHTEfCGxr5Yw3rBZg" extensionLocation="_fpVj0LHXEfCGxr5Yw3rBZg"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_elSs4LHXEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_eGfoULHoEfCmPIezkwx3Eg" addition="_C-E2ELHTEfCGxr5Yw3rBZg"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_C-E2ELHTEfCGxr5Yw3rBZg" name="Buy Tickets for Event " subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fpVj0LHXEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
@@ -64,6 +64,10 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0nuJoLHUEfCGxr5Yw3rBZg" name="Select Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_78xEkLHUEfCGxr5Yw3rBZg" extendedCase="_DNivELHLEfCGxr5Yw3rBZg" extensionLocation="_781WALHUEfCGxr5Yw3rBZg"/>
       <extend xmi:type="uml:Extend" xmi:id="_9ChLsLHUEfCGxr5Yw3rBZg" extendedCase="_yGRFELHKEfCGxr5Yw3rBZg" extensionLocation="_9ChLsbHUEfCGxr5Yw3rBZg"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eARXMLdcEfCLbcY3zun7nw" name="View Society Information" subject="__bEIoLAtEfCwDIzn2lPEGg">
+      <extend xmi:type="uml:Extend" xmi:id="_ky_BILdcEfCLbcY3zun7nw" extendedCase="_MabeoLDJEfCkddQUiDMVqw" extensionLocation="_kzAPQLdcEfCLbcY3zun7nw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_QGix0LddEfCLbcY3zun7nw" extendedCase="_Rp0UoLDJEfCkddQUiDMVqw" extensionLocation="_QGj_8LddEfCLbcY3zun7nw"/>
     </ownedUseCase>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__j5jULHUEfCGxr5Yw3rBZg" memberEnd="__j6KYbHUEfCGxr5Yw3rBZg __j6KYrHUEfCGxr5Yw3rBZg">
