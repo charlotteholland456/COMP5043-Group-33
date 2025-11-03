@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_yNePkLHmEfCmPIezkwx3Eg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_yNUekLHmEfCmPIezkwx3Eg" name="Register for Events" group="_7HrxgLHmEfCmPIezkwx3Eg _BcCrgLHnEfCmPIezkwx3Eg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_yNUekLHmEfCmPIezkwx3Eg" name="Register for University Union" group="_7HrxgLHmEfCmPIezkwx3Eg _BcCrgLHnEfCmPIezkwx3Eg">
     <group xmi:type="uml:ActivityPartition" xmi:id="_7HrxgLHmEfCmPIezkwx3Eg" name="Student-User"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_BcCrgLHnEfCmPIezkwx3Eg" name="USU Student Application - SubSystem"/>
   </packagedElement>
