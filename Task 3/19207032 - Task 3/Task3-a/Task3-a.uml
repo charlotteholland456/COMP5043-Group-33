@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qql0sKhpEfCGj4R3KQ0Y7w" name="Task3-a">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qsf5MKhpEfCGj4R3KQ0Y7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Cj6LgKhwEfCGj4R3KQ0Y7w" name="Event Management">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q52WUKhwEfCGj4R3KQ0Y7w" name="System">
+      <extend xmi:type="uml:Extend" xmi:id="_OAzQIKhxEfCGj4R3KQ0Y7w" extendedCase="_aJU9oKhwEfCGj4R3KQ0Y7w" extensionLocation="_OA7zAKhxEfCGj4R3KQ0Y7w"/>
+      <include xmi:type="uml:Include" xmi:id="_HK_18KhxEfCGj4R3KQ0Y7w" addition="_VwG6oKhwEfCGj4R3KQ0Y7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VwG6oKhwEfCGj4R3KQ0Y7w" name="Create Event">
+      <extend xmi:type="uml:Extend" xmi:id="_K3oo0Km7EfCGj4R3KQ0Y7w" extendedCase="_HRtrAKm7EfCGj4R3KQ0Y7w" extensionLocation="_K3uIYKm7EfCGj4R3KQ0Y7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aJU9oKhwEfCGj4R3KQ0Y7w" name="Cancel Event">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OA7zAKhxEfCGj4R3KQ0Y7w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e4A6UKhwEfCGj4R3KQ0Y7w" name="Update Event">
+      <include xmi:type="uml:Include" xmi:id="_Tcs4IKhxEfCGj4R3KQ0Y7w" addition="_Q52WUKhwEfCGj4R3KQ0Y7w"/>
+      <include xmi:type="uml:Include" xmi:id="_ouYGAKhxEfCGj4R3KQ0Y7w" addition="_jvltQKhwEfCGj4R3KQ0Y7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jvltQKhwEfCGj4R3KQ0Y7w" name="Upload Media">
+      <extend xmi:type="uml:Extend" xmi:id="_rtuMAKhxEfCGj4R3KQ0Y7w" extendedCase="_oD6pMKhwEfCGj4R3KQ0Y7w" extensionLocation="_rt-DoKhxEfCGj4R3KQ0Y7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oD6pMKhwEfCGj4R3KQ0Y7w" name="Notify Member">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rt-DoKhxEfCGj4R3KQ0Y7w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_8bVmkKh2EfCGj4R3KQ0Y7w" name="Notify" client="_oD6pMKhwEfCGj4R3KQ0Y7w" supplier="_1MMfUKh2EfCGj4R3KQ0Y7w"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_uTtIEKh3EfCGj4R3KQ0Y7w" name="Notify" client="_oD6pMKhwEfCGj4R3KQ0Y7w" supplier="_d68w8Kh3EfCGj4R3KQ0Y7w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HRtrAKm7EfCGj4R3KQ0Y7w" name="Request Termination">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_K3uIYKm7EfCGj4R3KQ0Y7w" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_v7rjQKm7EfCGj4R3KQ0Y7w" addition="_e4A6UKhwEfCGj4R3KQ0Y7w"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_tE-IQKhwEfCGj4R3KQ0Y7w" name="Society Ledear"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wQtEcKhwEfCGj4R3KQ0Y7w" name="Manage Event" memberEnd="_wQvgsahwEfCGj4R3KQ0Y7w _wQwHwKhwEfCGj4R3KQ0Y7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wQu5oKhwEfCGj4R3KQ0Y7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wQvgsKhwEfCGj4R3KQ0Y7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wQvgsahwEfCGj4R3KQ0Y7w" name="system" type="_Q52WUKhwEfCGj4R3KQ0Y7w" association="_wQtEcKhwEfCGj4R3KQ0Y7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wQwHwKhwEfCGj4R3KQ0Y7w" name="society ledear" type="_tE-IQKhwEfCGj4R3KQ0Y7w" association="_wQtEcKhwEfCGj4R3KQ0Y7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1MMfUKh2EfCGj4R3KQ0Y7w" name="Society Member"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_d68w8Kh3EfCGj4R3KQ0Y7w" name="Union Officer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iaZiUKh4EfCGj4R3KQ0Y7w" name="Review" memberEnd="_iabXgKh4EfCGj4R3KQ0Y7w _iabXgah4EfCGj4R3KQ0Y7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iaawcKh4EfCGj4R3KQ0Y7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iaawcah4EfCGj4R3KQ0Y7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iabXgKh4EfCGj4R3KQ0Y7w" name="update event" type="_e4A6UKhwEfCGj4R3KQ0Y7w" association="_iaZiUKh4EfCGj4R3KQ0Y7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iabXgah4EfCGj4R3KQ0Y7w" name="union officer" type="_d68w8Kh3EfCGj4R3KQ0Y7w" association="_iaZiUKh4EfCGj4R3KQ0Y7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nh_uQKh4EfCGj4R3KQ0Y7w" name="Review" memberEnd="_niCxkKh4EfCGj4R3KQ0Y7w _niCxkah4EfCGj4R3KQ0Y7w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_niCKgKh4EfCGj4R3KQ0Y7w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_niCKgah4EfCGj4R3KQ0Y7w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_niCxkKh4EfCGj4R3KQ0Y7w" name="update event" type="_e4A6UKhwEfCGj4R3KQ0Y7w" association="_nh_uQKh4EfCGj4R3KQ0Y7w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_niCxkah4EfCGj4R3KQ0Y7w" name="society member" type="_1MMfUKh2EfCGj4R3KQ0Y7w" association="_nh_uQKh4EfCGj4R3KQ0Y7w"/>
+  </packagedElement>
+</uml:Model>
