@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uZqJ4LjwEfCwGdVvx9KtYA" name="Task4-a">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_udPCULjwEfCwGdVvx9KtYA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_AoxlsLjxEfCwGdVvx9KtYA" name="EventService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_nCBbsLj1EfCwGdVvx9KtYA" name="UpdateEvent"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Zp8K0Lj2EfCwGdVvx9KtYA" name="CreateEvent"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_FI8hELj4EfCwGdVvx9KtYA" name="MediaService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_FX30QLkAEfCwGdVvx9KtYA" client="_FI8hELj4EfCwGdVvx9KtYA" supplier="_udva0Lj_EfCwGdVvx9KtYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_LmCgULj4EfCwGdVvx9KtYA" name="NotificationService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_EMbU0LkAEfCwGdVvx9KtYA" client="_LmCgULj4EfCwGdVvx9KtYA" supplier="_udva0Lj_EfCwGdVvx9KtYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_XswagLj4EfCwGdVvx9KtYA" name="UploadMedia"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_nNQ7ALj4EfCwGdVvx9KtYA" name="SendNotification"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GX7AMLj5EfCwGdVvx9KtYA" name="ValidateToken"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_fTqsELj5EfCwGdVvx9KtYA" name="MemberService(external)">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_UF7kILkAEfCwGdVvx9KtYA" client="_fTqsELj5EfCwGdVvx9KtYA" supplier="_LmCgULj4EfCwGdVvx9KtYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_udva0Lj_EfCwGdVvx9KtYA" name="AuthenticationService"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6wc3sLkBEfCwGdVvx9KtYA" client="_GX7AMLj5EfCwGdVvx9KtYA" supplier="_udva0Lj_EfCwGdVvx9KtYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_9fw9oLkBEfCwGdVvx9KtYA" client="_GX7AMLj5EfCwGdVvx9KtYA" supplier="_AoxlsLjxEfCwGdVvx9KtYA"/>
+</uml:Model>
