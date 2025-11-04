@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_c-vGMK6fEfCGj4R3KQ0Y7w" name="Task3-b">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_dDNWgK6fEfCGj4R3KQ0Y7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_n4l8YLMYEfCKqfgcKsUhKA" name="Update Event" node="_b5pMMLMaEfCKr5dMaF_3Wg _gBhAgLMaEfCKr5dMaF_3Wg _oyJvsLMaEfCKr5dMaF_3Wg _lD0nULMbEfCKr5dMaF_3Wg _zjpt8LMbEfCKr5dMaF_3Wg _bRMaMLMcEfCKr5dMaF_3Wg _D5Z-8LMdEfCKr5dMaF_3Wg _g4eWULMdEfCKr5dMaF_3Wg _BgZ-ELNbEfCNMscZqXoJrg" group="_spyagLMYEfCKqfgcKsUhKA _t45R8LMYEfCKqfgcKsUhKA">
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_VSHzsLMcEfCKr5dMaF_3Wg" name="NO" target="_zjpt8LMbEfCKr5dMaF_3Wg" source="_lD0nULMbEfCKr5dMaF_3Wg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_VSSy0LMcEfCKr5dMaF_3Wg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_VSSy0bMcEfCKr5dMaF_3Wg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i72YwLMcEfCKr5dMaF_3Wg" target="_bRMaMLMcEfCKr5dMaF_3Wg" source="_zjpt8LMbEfCKr5dMaF_3Wg"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_uqNdULMcEfCKr5dMaF_3Wg" name="Event" inPartition="_spyagLMYEfCKqfgcKsUhKA" target="_lD0nULMbEfCKr5dMaF_3Wg" source="_oyJvsLMaEfCKr5dMaF_3Wg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_uqXOULMcEfCKr5dMaF_3Wg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_uqXOUbMcEfCKr5dMaF_3Wg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KuK3ULMdEfCKr5dMaF_3Wg" name="Yes" inPartition="_spyagLMYEfCKqfgcKsUhKA" target="_D5Z-8LMdEfCKr5dMaF_3Wg" source="_lD0nULMbEfCKr5dMaF_3Wg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Yg8qsLMdEfCKr5dMaF_3Wg" name="Notify" target="_BgZ-ELNbEfCNMscZqXoJrg" source="_bRMaMLMcEfCKr5dMaF_3Wg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3S8YQLMdEfCKr5dMaF_3Wg" name="Login" target="_oyJvsLMaEfCKr5dMaF_3Wg" source="_b5pMMLMaEfCKr5dMaF_3Wg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hj3TgLNbEfCNMscZqXoJrg" name="Send a Message" target="_g4eWULMdEfCKr5dMaF_3Wg" source="_BgZ-ELNbEfCNMscZqXoJrg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_spyagLMYEfCKqfgcKsUhKA" name="Society Leader" node="_oyJvsLMaEfCKr5dMaF_3Wg _lD0nULMbEfCKr5dMaF_3Wg _D5Z-8LMdEfCKr5dMaF_3Wg _g4eWULMdEfCKr5dMaF_3Wg" edge="_uqNdULMcEfCKr5dMaF_3Wg _KuK3ULMdEfCKr5dMaF_3Wg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_t45R8LMYEfCKqfgcKsUhKA" name="System" node="_bRMaMLMcEfCKr5dMaF_3Wg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_b5pMMLMaEfCKr5dMaF_3Wg" name="Leader" outgoing="_3S8YQLMdEfCKr5dMaF_3Wg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_gBhAgLMaEfCKr5dMaF_3Wg" name="ActivityFinalNode4"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oyJvsLMaEfCKr5dMaF_3Wg" name="Select Event to Update" incoming="_3S8YQLMdEfCKr5dMaF_3Wg" outgoing="_uqNdULMcEfCKr5dMaF_3Wg" inPartition="_spyagLMYEfCKqfgcKsUhKA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_lD0nULMbEfCKr5dMaF_3Wg" name="Update Event" incoming="_uqNdULMcEfCKr5dMaF_3Wg" outgoing="_VSHzsLMcEfCKr5dMaF_3Wg _KuK3ULMdEfCKr5dMaF_3Wg" inPartition="_spyagLMYEfCKqfgcKsUhKA"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_zjpt8LMbEfCKr5dMaF_3Wg" name="Update Change" incoming="_VSHzsLMcEfCKr5dMaF_3Wg" outgoing="_i72YwLMcEfCKr5dMaF_3Wg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zjwboLMbEfCKr5dMaF_3Wg" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bRMaMLMcEfCKr5dMaF_3Wg" name="Save Event" incoming="_i72YwLMcEfCKr5dMaF_3Wg" outgoing="_Yg8qsLMdEfCKr5dMaF_3Wg" inPartition="_t45R8LMYEfCKqfgcKsUhKA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_D5Z-8LMdEfCKr5dMaF_3Wg" name="Create Event" incoming="_KuK3ULMdEfCKr5dMaF_3Wg" inPartition="_spyagLMYEfCKqfgcKsUhKA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_g4eWULMdEfCKr5dMaF_3Wg" name="Notify Members" incoming="_hj3TgLNbEfCNMscZqXoJrg" inPartition="_spyagLMYEfCKqfgcKsUhKA"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_BgZ-ELNbEfCNMscZqXoJrg" name="CentralBufferNode17" incoming="_Yg8qsLMdEfCKr5dMaF_3Wg" outgoing="_hj3TgLNbEfCNMscZqXoJrg">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_BgdBYLNbEfCNMscZqXoJrg" value="1"/>
+    </node>
+  </packagedElement>
+</uml:Model>
