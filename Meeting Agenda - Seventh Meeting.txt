@@ -1,0 +1,35 @@
+Meeting Agenda - Seventh Meeting
+Date: Wednesday 5th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions):
+Each of us have improved our user case diagrams, ensuring that the connection arrows are in the right direction, as well as making use of relation connections. 
+Some of us have continued to work on the activity diagrams. 
+We have done research into creating the system architecture models. 
+We have all cloned and committed our diagrams to the group Git repository.
+
+Cross-checking the diagrams for the project:
+We will all cross-check each others’ use case diagrams that we modified this week. 
+If any of us have worked on the activity diagrams since the previous meeting, we will cross-check them. Therefore, we can provide recommendations for improvements. 
+
+Discuss the plan for the group’s System Architecture Model:
+We will discuss the plan for creating the system architecture model. 
+Decide upon a location and time to work on the model together. 
+
+Actions to take place after the meeting:
+We will start planning our individual System Architecture Model. 
+We create draft versions of the System Architecture Models. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+Date/Time of the following meeting - Wednesday 12th November 2025 (13:00pm till 14:00pm)
