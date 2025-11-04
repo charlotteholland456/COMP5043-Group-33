@@ -406,25 +406,6 @@
           <element xmi:type="uml:ActivityPartition" href="UseCase(Ultimate).uml#_NlQEcK6DEfCy7LlARt0Vrg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NlXZMa6DEfCy7LlARt0Vrg" x="15" y="248" width="981" height="441"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_mLD8kK6DEfCy7LlARt0Vrg" type="ActivityPartition_Shape">
-          <children xmi:type="notation:DecorationNode" xmi:id="_mLEjoK6DEfCy7LlARt0Vrg" type="ActivityPartition_NameLabel"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_mLEjoa6DEfCy7LlARt0Vrg" type="ActivityPartition_FloatingNameLabel">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_mLEjoq6DEfCy7LlARt0Vrg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_mLEjo66DEfCy7LlARt0Vrg" type="ActivityPartition_ActivityNodeCompartment">
-            <children xmi:type="notation:Shape" xmi:id="_xZTkYK6IEfCy7LlARt0Vrg" type="CreateObjectAction_Shape">
-              <children xmi:type="notation:DecorationNode" xmi:id="_xZULcK6IEfCy7LlARt0Vrg" type="CreateObjectAction_NameLabel"/>
-              <children xmi:type="notation:DecorationNode" xmi:id="_xZULca6IEfCy7LlARt0Vrg" type="CreateObjectAction_FloatingNameLabel">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_xZULcq6IEfCy7LlARt0Vrg" y="15"/>
-              </children>
-              <element xmi:type="uml:CreateObjectAction" href="UseCase(Ultimate).uml#_xZJzYK6IEfCy7LlARt0Vrg"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZTkYa6IEfCy7LlARt0Vrg" x="34" y="19" width="321" height="21"/>
-            </children>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mLEjpK6DEfCy7LlARt0Vrg"/>
-          </children>
-          <element xmi:type="uml:ActivityPartition" href="UseCase(Ultimate).uml#_mK8n0K6DEfCy7LlARt0Vrg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mLD8ka6DEfCy7LlARt0Vrg" x="95" y="728" width="441" height="81"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_NPKscK6TEfCy7LlARt0Vrg" type="ActivityFinalNode_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_NPLTgK6TEfCy7LlARt0Vrg" type="ActivityFinalNode_FloatingNameLabel">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_NPLTga6TEfCy7LlARt0Vrg" y="15"/>
@@ -434,6 +415,14 @@
           </children>
           <element xmi:type="uml:ActivityFinalNode" href="UseCase(Ultimate).uml#_NOxD0K6TEfCy7LlARt0Vrg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NPKsca6TEfCy7LlARt0Vrg" x="695" y="768"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_xZTkYK6IEfCy7LlARt0Vrg" type="CreateObjectAction_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_xZULcK6IEfCy7LlARt0Vrg" type="CreateObjectAction_NameLabel"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_xZULca6IEfCy7LlARt0Vrg" type="CreateObjectAction_FloatingNameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xZULcq6IEfCy7LlARt0Vrg" y="15"/>
+          </children>
+          <element xmi:type="uml:CreateObjectAction" href="UseCase(Ultimate).uml#_xZJzYK6IEfCy7LlARt0Vrg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZTkYa6IEfCy7LlARt0Vrg" x="135" y="768" width="321" height="21"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vhLpYa6BEfCy7LlARt0Vrg"/>
       </children>
