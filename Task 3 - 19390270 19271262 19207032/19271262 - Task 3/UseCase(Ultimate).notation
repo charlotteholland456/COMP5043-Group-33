@@ -119,7 +119,7 @@
     <children xmi:type="notation:Shape" xmi:id="_RXF7MK5_EfCy7LlARt0Vrg" type="Comment_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_RXGiQK5_EfCy7LlARt0Vrg" type="Comment_BodyLabel"/>
       <element xmi:type="uml:Comment" href="UseCase(Ultimate).uml#_RXBpwK5_EfCy7LlARt0Vrg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RXF7Ma5_EfCy7LlARt0Vrg" x="800" y="60" width="178" height="86"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RXF7Ma5_EfCy7LlARt0Vrg" x="700" y="80" width="178" height="86"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_GxHs8a59EfCy7LlARt0Vrg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_GxHs8q59EfCy7LlARt0Vrg"/>
