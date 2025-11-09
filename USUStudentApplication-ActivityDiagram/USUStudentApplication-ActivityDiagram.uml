@@ -3,8 +3,97 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_yNePkLHmEfCmPIezkwx3Eg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_yNUekLHmEfCmPIezkwx3Eg" name="Register for University Union" group="_7HrxgLHmEfCmPIezkwx3Eg _BcCrgLHnEfCmPIezkwx3Eg">
-    <group xmi:type="uml:ActivityPartition" xmi:id="_7HrxgLHmEfCmPIezkwx3Eg" name="Student-User"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_BcCrgLHnEfCmPIezkwx3Eg" name="USU Student Application - SubSystem"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_yNUekLHmEfCmPIezkwx3Eg" name="Register for University Union" node="_2CM2wL1dEfCCgojud2sFFw _BfNFkL1eEfCCgojud2sFFw _T7jFEL1eEfCCgojud2sFFw _jQUPoL1eEfCCgojud2sFFw _McbLoL1fEfCCgojud2sFFw _WMcUML1fEfCCgojud2sFFw _qeOyYL1fEfCCgojud2sFFw __9r9kL1fEfCCgojud2sFFw _fGmWUL1gEfCCgojud2sFFw _0pwVwL1gEfCCgojud2sFFw _UaPr4L1hEfCCgojud2sFFw _2pRPEL1jEfCCgojud2sFFw _HkezAL1kEfCCgojud2sFFw _H1CiEL1lEfCCgojud2sFFw _zMeGIL1lEfCCgojud2sFFw _lMAxML1nEfCCgojud2sFFw _5Sun0L1nEfCCgojud2sFFw _JtAB4L1oEfCCgojud2sFFw _OLzTAL1pEfCCgojud2sFFw _rO09UL1pEfCCgojud2sFFw _1MRd4L1pEfCCgojud2sFFw _ft_h8L1qEfCCgojud2sFFw _7knqkL1qEfCCgojud2sFFw _LNWS8L1rEfCCgojud2sFFw _AdBugL1sEfCCgojud2sFFw _rUv3wL1sEfCCgojud2sFFw _Ts184L1tEfCCgojud2sFFw _mAAyQL1tEfCCgojud2sFFw _xPUG0L1uEfCCgojud2sFFw _QMH9QL1vEfCCgojud2sFFw _XljB4L1vEfCCgojud2sFFw _FUR0gL1wEfCCgojud2sFFw _QqkXUL1wEfCCgojud2sFFw" group="_7HrxgLHmEfCmPIezkwx3Eg _BcCrgLHnEfCmPIezkwx3Eg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KLL-QL1eEfCCgojud2sFFw" target="_2CM2wL1dEfCCgojud2sFFw" source="_BfNFkL1eEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f8mcIL1eEfCCgojud2sFFw" target="_T7jFEL1eEfCCgojud2sFFw" source="_2CM2wL1dEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nS0bwL1eEfCCgojud2sFFw" target="_jQUPoL1eEfCCgojud2sFFw" source="_T7jFEL1eEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PPBPEL1fEfCCgojud2sFFw" target="_McbLoL1fEfCCgojud2sFFw" source="_jQUPoL1eEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iyf1wL1fEfCCgojud2sFFw" target="_WMcUML1fEfCCgojud2sFFw" source="_McbLoL1fEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yMllML1fEfCCgojud2sFFw" name="{quit union registration}" target="_qeOyYL1fEfCCgojud2sFFw" source="_WMcUML1fEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Gi7MML1gEfCCgojud2sFFw" name="{exit}" inPartition="_7HrxgLHmEfCmPIezkwx3Eg" target="__9r9kL1fEfCCgojud2sFFw" source="_WMcUML1fEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6h-GUL1gEfCCgojud2sFFw" target="_fGmWUL1gEfCCgojud2sFFw" source="__9r9kL1fEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7d7_UL1gEfCCgojud2sFFw" target="_0pwVwL1gEfCCgojud2sFFw" source="_fGmWUL1gEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eiz3UL1hEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_UaPr4L1hEfCCgojud2sFFw" source="_0pwVwL1gEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PbF4AL1mEfCCgojud2sFFw" name="{else - send link to provide supporting documents}" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_zMeGIL1lEfCCgojud2sFFw" source="_UaPr4L1hEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XeP2IL1mEfCCgojud2sFFw" name="{The university does not provide the study program}" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_H1CiEL1lEfCCgojud2sFFw" source="_UaPr4L1hEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lWOSkL1mEfCCgojud2sFFw" name="{Student's name doesn't match the ID-number in records}" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_HkezAL1kEfCCgojud2sFFw" source="_UaPr4L1hEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qBZBML1mEfCCgojud2sFFw" name="{ID Number not registered with university}" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_2pRPEL1jEfCCgojud2sFFw" source="_UaPr4L1hEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CmRPwL1oEfCCgojud2sFFw" target="_lMAxML1nEfCCgojud2sFFw" source="_2pRPEL1jEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ee9PsL1oEfCCgojud2sFFw" target="_5Sun0L1nEfCCgojud2sFFw" source="_HkezAL1kEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U47HwL1oEfCCgojud2sFFw" target="_JtAB4L1oEfCCgojud2sFFw" source="_H1CiEL1lEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d0OZYL1pEfCCgojud2sFFw" target="_OLzTAL1pEfCCgojud2sFFw" source="_zMeGIL1lEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yd8PYL1pEfCCgojud2sFFw" target="_rO09UL1pEfCCgojud2sFFw" source="_OLzTAL1pEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HVPOYL1qEfCCgojud2sFFw" name="{upload supporting documents}" inPartition="_7HrxgLHmEfCmPIezkwx3Eg" target="_1MRd4L1pEfCCgojud2sFFw" source="_rO09UL1pEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hbp9oL1qEfCCgojud2sFFw" target="_ft_h8L1qEfCCgojud2sFFw" source="_JtAB4L1oEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_k_XU8L1qEfCCgojud2sFFw" target="_ft_h8L1qEfCCgojud2sFFw" source="_5Sun0L1nEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mtuUML1qEfCCgojud2sFFw" target="_ft_h8L1qEfCCgojud2sFFw" source="_lMAxML1nEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_piQ4YL1qEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg" target="__9r9kL1fEfCCgojud2sFFw" source="_ft_h8L1qEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CHh98L1rEfCCgojud2sFFw" target="_7knqkL1qEfCCgojud2sFFw" source="_1MRd4L1pEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FdA2kL1sEfCCgojud2sFFw" target="_AdBugL1sEfCCgojud2sFFw" source="_rO09UL1pEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_emcjsL1tEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_Ts184L1tEfCCgojud2sFFw" source="_rUv3wL1sEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_r8dikL1tEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_mAAyQL1tEfCCgojud2sFFw" source="_Ts184L1tEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L3JhEL1vEfCCgojud2sFFw" target="_xPUG0L1uEfCCgojud2sFFw" source="_rUv3wL1sEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9rAsL1vEfCCgojud2sFFw" target="_QMH9QL1vEfCCgojud2sFFw" source="_xPUG0L1uEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_azHxIL1vEfCCgojud2sFFw" target="_XljB4L1vEfCCgojud2sFFw" source="_QMH9QL1vEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YiCp4L1wEfCCgojud2sFFw" target="_LNWS8L1rEfCCgojud2sFFw" source="_7knqkL1qEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z-JbgL1wEfCCgojud2sFFw" target="_QqkXUL1wEfCCgojud2sFFw" source="_AdBugL1sEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dZzqEL1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_FUR0gL1wEfCCgojud2sFFw" source="_LNWS8L1rEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hOYH4L1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_FUR0gL1wEfCCgojud2sFFw" source="_QqkXUL1wEfCCgojud2sFFw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jRvt0L1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg" target="_rUv3wL1sEfCCgojud2sFFw" source="_FUR0gL1wEfCCgojud2sFFw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_7HrxgLHmEfCmPIezkwx3Eg" name="Student-User" node="_2CM2wL1dEfCCgojud2sFFw _WMcUML1fEfCCgojud2sFFw __9r9kL1fEfCCgojud2sFFw _rO09UL1pEfCCgojud2sFFw _1MRd4L1pEfCCgojud2sFFw _ft_h8L1qEfCCgojud2sFFw _QMH9QL1vEfCCgojud2sFFw" edge="_Gi7MML1gEfCCgojud2sFFw _HVPOYL1qEfCCgojud2sFFw _piQ4YL1qEfCCgojud2sFFw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_BcCrgLHnEfCmPIezkwx3Eg" name="USU Student Application - SubSystem" node="_jQUPoL1eEfCCgojud2sFFw _0pwVwL1gEfCCgojud2sFFw _UaPr4L1hEfCCgojud2sFFw _2pRPEL1jEfCCgojud2sFFw _HkezAL1kEfCCgojud2sFFw _H1CiEL1lEfCCgojud2sFFw _zMeGIL1lEfCCgojud2sFFw _LNWS8L1rEfCCgojud2sFFw _rUv3wL1sEfCCgojud2sFFw _Ts184L1tEfCCgojud2sFFw _FUR0gL1wEfCCgojud2sFFw _QqkXUL1wEfCCgojud2sFFw" edge="_eiz3UL1hEfCCgojud2sFFw _PbF4AL1mEfCCgojud2sFFw _XeP2IL1mEfCCgojud2sFFw _lWOSkL1mEfCCgojud2sFFw _qBZBML1mEfCCgojud2sFFw _emcjsL1tEfCCgojud2sFFw _r8dikL1tEfCCgojud2sFFw _dZzqEL1wEfCCgojud2sFFw _hOYH4L1wEfCCgojud2sFFw _jRvt0L1wEfCCgojud2sFFw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2CM2wL1dEfCCgojud2sFFw" name="Start Student Union Registration" incoming="_KLL-QL1eEfCCgojud2sFFw" outgoing="_f8mcIL1eEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_BfNFkL1eEfCCgojud2sFFw" name="" outgoing="_KLL-QL1eEfCCgojud2sFFw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_T7jFEL1eEfCCgojud2sFFw" name="Message to Request Union Registration Form" incoming="_f8mcIL1eEfCCgojud2sFFw" outgoing="_nS0bwL1eEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_T7nWgL1eEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jQUPoL1eEfCCgojud2sFFw" name="Send Union Registration Form" incoming="_nS0bwL1eEfCCgojud2sFFw" outgoing="_PPBPEL1fEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_McbLoL1fEfCCgojud2sFFw" name="Union Registration Form" incoming="_PPBPEL1fEfCCgojud2sFFw" outgoing="_iyf1wL1fEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_McbysL1fEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WMcUML1fEfCCgojud2sFFw" name="" incoming="_iyf1wL1fEfCCgojud2sFFw" outgoing="_yMllML1fEfCCgojud2sFFw _Gi7MML1gEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_qeOyYL1fEfCCgojud2sFFw" name="" incoming="_yMllML1fEfCCgojud2sFFw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="__9r9kL1fEfCCgojud2sFFw" name="Fill Student Union Registration Form" incoming="_Gi7MML1gEfCCgojud2sFFw _piQ4YL1qEfCCgojud2sFFw" outgoing="_6h-GUL1gEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_fGmWUL1gEfCCgojud2sFFw" name="Union Registration Data = {name, studentID, Study Program, Year of Start, Length of Study Program, Contact Addresses}" incoming="_6h-GUL1gEfCCgojud2sFFw" outgoing="_7d7_UL1gEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_fGmWUb1gEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0pwVwL1gEfCCgojud2sFFw" name="Check Registration Data" incoming="_7d7_UL1gEfCCgojud2sFFw" outgoing="_eiz3UL1hEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_UaPr4L1hEfCCgojud2sFFw" name="" incoming="_eiz3UL1hEfCCgojud2sFFw" outgoing="_PbF4AL1mEfCCgojud2sFFw _XeP2IL1mEfCCgojud2sFFw _lWOSkL1mEfCCgojud2sFFw _qBZBML1mEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2pRPEL1jEfCCgojud2sFFw" name="Error Message: &quot;ID Number is not registered to the University&quot;" incoming="_qBZBML1mEfCCgojud2sFFw" outgoing="_CmRPwL1oEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HkezAL1kEfCCgojud2sFFw" name="Error Message: &quot;This name does not match the ID number&quot;" incoming="_lWOSkL1mEfCCgojud2sFFw" outgoing="_Ee9PsL1oEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_H1CiEL1lEfCCgojud2sFFw" name="Error Message: &quot;The university does not provide this study program&quot;" incoming="_XeP2IL1mEfCCgojud2sFFw" outgoing="_U47HwL1oEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zMeGIL1lEfCCgojud2sFFw" name="Send Link to Provide Supporting Documents" incoming="_PbF4AL1mEfCCgojud2sFFw" outgoing="_d0OZYL1pEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_lMAxML1nEfCCgojud2sFFw" name="Error Message: &quot;ID Number is not registered to the university&quot;" incoming="_CmRPwL1oEfCCgojud2sFFw" outgoing="_mtuUML1qEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_lMBYQL1nEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_5Sun0L1nEfCCgojud2sFFw" name="Error Message: &quot;This name does not match the ID number&quot;" incoming="_Ee9PsL1oEfCCgojud2sFFw" outgoing="_k_XU8L1qEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_5SvO4L1nEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_JtAB4L1oEfCCgojud2sFFw" name="Error Message: &quot;The university does not provide this study program&quot;" incoming="_U47HwL1oEfCCgojud2sFFw" outgoing="_hbp9oL1qEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_JtAo8L1oEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_OLzTAL1pEfCCgojud2sFFw" name="Optional Submitting Documents Link" incoming="_d0OZYL1pEfCCgojud2sFFw" outgoing="_yd8PYL1pEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_OLz6EL1pEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_rO09UL1pEfCCgojud2sFFw" name="" incoming="_yd8PYL1pEfCCgojud2sFFw" outgoing="_HVPOYL1qEfCCgojud2sFFw _FdA2kL1sEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1MRd4L1pEfCCgojud2sFFw" name="Upload Supporting Documents (student ID Card)" incoming="_HVPOYL1qEfCCgojud2sFFw" outgoing="_CHh98L1rEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_ft_h8L1qEfCCgojud2sFFw" name="" incoming="_hbp9oL1qEfCCgojud2sFFw _k_XU8L1qEfCCgojud2sFFw _mtuUML1qEfCCgojud2sFFw" outgoing="_piQ4YL1qEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_7knqkL1qEfCCgojud2sFFw" name="Send Supporting Documents" incoming="_CHh98L1rEfCCgojud2sFFw" outgoing="_YiCp4L1wEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_7koRoL1qEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LNWS8L1rEfCCgojud2sFFw" name="Manual - Validate Supporting Documents" incoming="_YiCp4L1wEfCCgojud2sFFw" outgoing="_dZzqEL1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_AdBugL1sEfCCgojud2sFFw" name="No Additional Supporting Documentation" incoming="_FdA2kL1sEfCCgojud2sFFw" outgoing="_Z-JbgL1wEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AdCVkL1sEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rUv3wL1sEfCCgojud2sFFw" name="Create a Unique USU Membership ID" incoming="_jRvt0L1wEfCCgojud2sFFw" outgoing="_emcjsL1tEfCCgojud2sFFw _L3JhEL1vEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ts184L1tEfCCgojud2sFFw" name="Grant User Access as Student - Created Account" incoming="_emcjsL1tEfCCgojud2sFFw" outgoing="_r8dikL1tEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_mAAyQL1tEfCCgojud2sFFw" name="" incoming="_r8dikL1tEfCCgojud2sFFw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_xPUG0L1uEfCCgojud2sFFw" name="Assigning Unique USU Membership ID" incoming="_L3JhEL1vEfCCgojud2sFFw" outgoing="_U9rAsL1vEfCCgojud2sFFw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_xPUt4L1uEfCCgojud2sFFw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QMH9QL1vEfCCgojud2sFFw" name="Assigned USU Membership ID" incoming="_U9rAsL1vEfCCgojud2sFFw" outgoing="_azHxIL1vEfCCgojud2sFFw" inPartition="_7HrxgLHmEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_XljB4L1vEfCCgojud2sFFw" name="" incoming="_azHxIL1vEfCCgojud2sFFw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_FUR0gL1wEfCCgojud2sFFw" name="" incoming="_dZzqEL1wEfCCgojud2sFFw _hOYH4L1wEfCCgojud2sFFw" outgoing="_jRvt0L1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QqkXUL1wEfCCgojud2sFFw" name="Automatic - Validate Union Registration Form Data" incoming="_Z-JbgL1wEfCCgojud2sFFw" outgoing="_hOYH4L1wEfCCgojud2sFFw" inPartition="_BcCrgLHnEfCmPIezkwx3Eg"/>
   </packagedElement>
 </uml:Model>
