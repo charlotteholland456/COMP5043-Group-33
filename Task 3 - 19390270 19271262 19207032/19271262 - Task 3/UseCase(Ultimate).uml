@@ -53,13 +53,13 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_r0Z88a5-EfCy7LlARt0Vrg" name="propagate updates" type="_nsvkAK5-EfCy7LlARt0Vrg" association="_r0Yu0K5-EfCy7LlARt0Vrg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_r0akAK5-EfCy7LlARt0Vrg" name="usu officer" type="_O1M4IK59EfCy7LlARt0Vrg" association="_r0Yu0K5-EfCy7LlARt0Vrg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_ujJTwK6BEfCy7LlARt0Vrg" name="Activity9" node="_NOxD0K6TEfCy7LlARt0Vrg _f20ZgK6SEfCy7LlARt0Vrg _Zkb1cK6SEfCy7LlARt0Vrg _Tnf88K6SEfCy7LlARt0Vrg _muvwEK6REfCy7LlARt0Vrg _Jcn50K6REfCy7LlARt0Vrg _ybguoK6QEfCy7LlARt0Vrg _bK5u4K6QEfCy7LlARt0Vrg _tzv2IK6MEfCy7LlARt0Vrg _PF8sEK6MEfCy7LlARt0Vrg _xMa3kK6LEfCy7LlARt0Vrg _asZAMK6LEfCy7LlARt0Vrg _muZO8K6KEfCy7LlARt0Vrg _uk5toK6JEfCy7LlARt0Vrg _xZJzYK6IEfCy7LlARt0Vrg _u0G5MK6HEfCy7LlARt0Vrg _wS3k8K6BEfCy7LlARt0Vrg" group="_9Tj-oK6CEfCy7LlARt0Vrg _NlQEcK6DEfCy7LlARt0Vrg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_ujJTwK6BEfCy7LlARt0Vrg" name="Activity9" node="_NOxD0K6TEfCy7LlARt0Vrg _f20ZgK6SEfCy7LlARt0Vrg _Zkb1cK6SEfCy7LlARt0Vrg _Tnf88K6SEfCy7LlARt0Vrg _muvwEK6REfCy7LlARt0Vrg _Jcn50K6REfCy7LlARt0Vrg _ybguoK6QEfCy7LlARt0Vrg _bK5u4K6QEfCy7LlARt0Vrg _tzv2IK6MEfCy7LlARt0Vrg _PF8sEK6MEfCy7LlARt0Vrg _xMa3kK6LEfCy7LlARt0Vrg _asZAMK6LEfCy7LlARt0Vrg _muZO8K6KEfCy7LlARt0Vrg _uk5toK6JEfCy7LlARt0Vrg _xZJzYK6IEfCy7LlARt0Vrg _u0G5MK6HEfCy7LlARt0Vrg _wS3k8K6BEfCy7LlARt0Vrg _koLjELpAEfCTq6Sa9PtykQ" group="_9Tj-oK6CEfCy7LlARt0Vrg _NlQEcK6DEfCy7LlARt0Vrg">
     <edge xmi:type="uml:ControlFlow" xmi:id="_T7LScK6IEfCy7LlARt0Vrg" target="_u0G5MK6HEfCy7LlARt0Vrg" source="_wS3k8K6BEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_JU9aUK6LEfCy7LlARt0Vrg" name="NO" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_muZO8K6KEfCy7LlARt0Vrg" source="_uk5toK6JEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_Ya8iAK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_uk5toK6JEfCy7LlARt0Vrg" source="_u0G5MK6HEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_atCgcK6LEfCy7LlARt0Vrg" name="YES" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_asZAMK6LEfCy7LlARt0Vrg" source="_uk5toK6JEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg" target="_xMa3kK6LEfCy7LlARt0Vrg" source="_muZO8K6KEfCy7LlARt0Vrg"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_PGuvMK6MEfCy7LlARt0Vrg" target="_PF8sEK6MEfCy7LlARt0Vrg" source="_asZAMK6LEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PGuvMK6MEfCy7LlARt0Vrg" target="_koLjELpAEfCTq6Sa9PtykQ" source="_asZAMK6LEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_2mYJYK6MEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_tzv2IK6MEfCy7LlARt0Vrg" source="_PF8sEK6MEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_oQJG0K6QEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_bK5u4K6QEfCy7LlARt0Vrg" source="_tzv2IK6MEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_ycZfcK6QEfCy7LlARt0Vrg" name="YES" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_ybguoK6QEfCy7LlARt0Vrg" source="_bK5u4K6QEfCy7LlARt0Vrg"/>
@@ -71,6 +71,7 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_tVAc8K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg" target="_f20ZgK6SEfCy7LlARt0Vrg" source="_muvwEK6REfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_yPD8IK6SEfCy7LlARt0Vrg" name="(Result) Admin" target="_xZJzYK6IEfCy7LlARt0Vrg" source="_f20ZgK6SEfCy7LlARt0Vrg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_NQErYK6TEfCy7LlARt0Vrg" target="_NOxD0K6TEfCy7LlARt0Vrg" source="_xZJzYK6IEfCy7LlARt0Vrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__J6LkL7xEfCFWfIa1pIK_g" target="_PF8sEK6MEfCy7LlARt0Vrg" source="_koLjELpAEfCTq6Sa9PtykQ"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_9Tj-oK6CEfCy7LlARt0Vrg" name="&quot;USU Administrator&quot; as Admin" node="_u0G5MK6HEfCy7LlARt0Vrg _uk5toK6JEfCy7LlARt0Vrg _muZO8K6KEfCy7LlARt0Vrg _asZAMK6LEfCy7LlARt0Vrg _xMa3kK6LEfCy7LlARt0Vrg" edge="_JU9aUK6LEfCy7LlARt0Vrg _Ya8iAK6LEfCy7LlARt0Vrg _atCgcK6LEfCy7LlARt0Vrg _5TDAcK6LEfCy7LlARt0Vrg"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_NlQEcK6DEfCy7LlARt0Vrg" name="&quot;USU OS&quot; as System" node="_PF8sEK6MEfCy7LlARt0Vrg _tzv2IK6MEfCy7LlARt0Vrg _bK5u4K6QEfCy7LlARt0Vrg _ybguoK6QEfCy7LlARt0Vrg _Jcn50K6REfCy7LlARt0Vrg _muvwEK6REfCy7LlARt0Vrg _Tnf88K6SEfCy7LlARt0Vrg _Zkb1cK6SEfCy7LlARt0Vrg _f20ZgK6SEfCy7LlARt0Vrg" edge="_2mYJYK6MEfCy7LlARt0Vrg _oQJG0K6QEfCy7LlARt0Vrg _ycZfcK6QEfCy7LlARt0Vrg _PVfKoK6REfCy7LlARt0Vrg _cl2NcK6REfCy7LlARt0Vrg _mv9RAK6REfCy7LlARt0Vrg _ZldwMK6SEfCy7LlARt0Vrg _f38a4K6SEfCy7LlARt0Vrg _tVAc8K6SEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:InitialNode" xmi:id="_wS3k8K6BEfCy7LlARt0Vrg" name="Initial Node" outgoing="_T7LScK6IEfCy7LlARt0Vrg"/>
@@ -143,7 +144,7 @@ stop
     <node xmi:type="uml:OpaqueAction" xmi:id="_muZO8K6KEfCy7LlARt0Vrg" name="Display &quot;Authorization Failed&quot; Message" incoming="_JU9aUK6LEfCy7LlARt0Vrg" outgoing="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_asZAMK6LEfCy7LlARt0Vrg" name="Apply Changes" incoming="_atCgcK6LEfCy7LlARt0Vrg" outgoing="_PGuvMK6MEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_xMa3kK6LEfCy7LlARt0Vrg" name="ActivityFinalNode14" incoming="_5TDAcK6LEfCy7LlARt0Vrg" inPartition="_9Tj-oK6CEfCy7LlARt0Vrg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_PF8sEK6MEfCy7LlARt0Vrg" name="Apply Event Changes to Database" incoming="_PGuvMK6MEfCy7LlARt0Vrg" outgoing="_2mYJYK6MEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PF8sEK6MEfCy7LlARt0Vrg" name="Apply Event Changes to Database" incoming="__J6LkL7xEfCFWfIa1pIK_g" outgoing="_2mYJYK6MEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_tzv2IK6MEfCy7LlARt0Vrg" name="Encrypt Event for Storage and Transmission" incoming="_2mYJYK6MEfCy7LlARt0Vrg" outgoing="_oQJG0K6QEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_bK5u4K6QEfCy7LlARt0Vrg" name="Update Requires Synchronization?" incoming="_oQJG0K6QEfCy7LlARt0Vrg" outgoing="_ycZfcK6QEfCy7LlARt0Vrg _cl2NcK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_ybguoK6QEfCy7LlARt0Vrg" name="Propagate Update to Relevants Interfaces (Synchronization)" incoming="_ycZfcK6QEfCy7LlARt0Vrg" outgoing="_PVfKoK6REfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
@@ -153,5 +154,8 @@ stop
     <node xmi:type="uml:OpaqueAction" xmi:id="_Zkb1cK6SEfCy7LlARt0Vrg" name="Export Log in JSON/CVS format" incoming="_ZldwMK6SEfCy7LlARt0Vrg" outgoing="_f38a4K6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_f20ZgK6SEfCy7LlARt0Vrg" name="Event Management Complete" incoming="_f38a4K6SEfCy7LlARt0Vrg _tVAc8K6SEfCy7LlARt0Vrg" outgoing="_yPD8IK6SEfCy7LlARt0Vrg" inPartition="_NlQEcK6DEfCy7LlARt0Vrg"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_NOxD0K6TEfCy7LlARt0Vrg" name="" incoming="_NQErYK6TEfCy7LlARt0Vrg"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_koLjELpAEfCTq6Sa9PtykQ" name="CentralBufferNode37" incoming="_PGuvMK6MEfCy7LlARt0Vrg" outgoing="__J6LkL7xEfCFWfIa1pIK_g">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_koOmYLpAEfCTq6Sa9PtykQ" value="1"/>
+    </node>
   </packagedElement>
 </uml:Model>
