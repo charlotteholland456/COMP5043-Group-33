@@ -10,7 +10,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sr2rxL7zEfCt3L5Hc083jQ"/>
     </children>
     <element xmi:type="uml:Component" href="USUStudentApplication-SoftwareArchitectureDiagram.uml#_SrrFkL7zEfCt3L5Hc083jQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sr02kb7zEfCt3L5Hc083jQ" x="320" y="180"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sr02kb7zEfCt3L5Hc083jQ" x="140" y="60" width="461" height="521"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_oJuikL7zEfCt3L5Hc083jQ" type="Component_PackagedElementShape">
     <children xmi:type="notation:DecorationNode" xmi:id="_oJwXwL7zEfCt3L5Hc083jQ" type="Component_NameLabel"/>
@@ -22,7 +22,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oJwXxb7zEfCt3L5Hc083jQ"/>
     </children>
     <element xmi:type="uml:Component" href="USUStudentApplication-SoftwareArchitectureDiagram.uml#_oJsGUL7zEfCt3L5Hc083jQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oJuikb7zEfCt3L5Hc083jQ" x="660" y="180"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oJuikb7zEfCt3L5Hc083jQ" x="760" y="60" width="441" height="521"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_SMQlsb7zEfCt3L5Hc083jQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_SMQlsr7zEfCt3L5Hc083jQ"/>

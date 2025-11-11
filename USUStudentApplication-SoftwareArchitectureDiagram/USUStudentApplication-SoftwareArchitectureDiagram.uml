@@ -3,6 +3,6 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_LTPfcL7zEfCt3L5Hc083jQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Component" xmi:id="_SrrFkL7zEfCt3L5Hc083jQ" name="Component2"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_oJsGUL7zEfCt3L5Hc083jQ" name="Component3"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_SrrFkL7zEfCt3L5Hc083jQ" name="USUStudentApplication"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_oJsGUL7zEfCt3L5Hc083jQ" name="StudentSubsystem-CloudServices"/>
 </uml:Model>
