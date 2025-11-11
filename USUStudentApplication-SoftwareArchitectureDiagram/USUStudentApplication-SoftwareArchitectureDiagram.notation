@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SMQlsL7zEfCt3L5Hc083jQ" type="PapyrusUMLComponentDiagram" name="ComponentDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Sr02kL7zEfCt3L5Hc083jQ" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Sr2EsL7zEfCt3L5Hc083jQ" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Sr2rwL7zEfCt3L5Hc083jQ" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sr2rwb7zEfCt3L5Hc083jQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Sr2rwr7zEfCt3L5Hc083jQ" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Sr2rw77zEfCt3L5Hc083jQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sr2rxL7zEfCt3L5Hc083jQ"/>
+    </children>
+    <element xmi:type="uml:Component" href="USUStudentApplication-SoftwareArchitectureDiagram.uml#_SrrFkL7zEfCt3L5Hc083jQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sr02kb7zEfCt3L5Hc083jQ" x="320" y="180"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_SMQlsb7zEfCt3L5Hc083jQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_SMQlsr7zEfCt3L5Hc083jQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_SMQls77zEfCt3L5Hc083jQ" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+    <owner xmi:type="uml:Model" href="USUStudentApplication-SoftwareArchitectureDiagram.uml#_LOpTUL7zEfCt3L5Hc083jQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="USUStudentApplication-SoftwareArchitectureDiagram.uml#_LOpTUL7zEfCt3L5Hc083jQ"/>
+</notation:Diagram>
