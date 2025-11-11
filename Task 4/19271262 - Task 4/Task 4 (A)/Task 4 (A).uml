@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_XAM00L7-EfCFWfIa1pIK_g" name="Task 4 (A)">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_XFgyoL7-EfCFWfIa1pIK_g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pHyTAL8DEfCFWfIa1pIK_g" name="USU OS System">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_EJ88AL8IEfCFWfIa1pIK_g" annotatedElement="_QIL9sL8KEfCFWfIa1pIK_g">
+        <body>HTTPS Request + JWT Token </body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RMpEUL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RhiWQL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RjVGAL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RnVcQL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_Ro9M4L8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RqmLoL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RsEyUL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RttxEL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RvWIwL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_RzheIL8KEfCFWfIa1pIK_g"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_R1LrAL8KEfCFWfIa1pIK_g"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_6GP_QL8DEfCFWfIa1pIK_g" name="Clients" useCase="_4kcjYL8FEfCFWfIa1pIK_g _4r0WsL8FEfCFWfIa1pIK_g _4tcHUL8FEfCFWfIa1pIK_g _4vYBAL8FEfCFWfIa1pIK_g _4xAYsL8FEfCFWfIa1pIK_g _4yeYUL8FEfCFWfIa1pIK_g _4z7w4L8FEfCFWfIa1pIK_g _41tSgL8FEfCFWfIa1pIK_g _47ysYL8FEfCFWfIa1pIK_g _49R6IL8FEfCFWfIa1pIK_g _5mWsUL8FEfCFWfIa1pIK_g _5n_rEL8FEfCFWfIa1pIK_g _ACWfYL8GEfCFWfIa1pIK_g _ALU1ML8GEfCFWfIa1pIK_g _AM8l0L8GEfCFWfIa1pIK_g _AOcaoL8GEfCFWfIa1pIK_g _AQELQL8GEfCFWfIa1pIK_g _ARtKAL8GEfCFWfIa1pIK_g">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_AkvFoL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Aw7ukL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_AzONkL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_EtcncL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E1hlYL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E3RR0L8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E9BUgL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E-iXcL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_FAAXEL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_FBoHsL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_W4I2QL8EEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_YO474L8GEfCFWfIa1pIK_g"/>
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_WUxDcL8EEfCFWfIa1pIK_g" name="RedefinableTemplateSignature24"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_QIL9sL8KEfCFWfIa1pIK_g" general="_RQxoUL8IEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4kcjYL8FEfCFWfIa1pIK_g" name="UseCase50" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4r0WsL8FEfCFWfIa1pIK_g" name="UseCase51" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4tcHUL8FEfCFWfIa1pIK_g" name="UseCase52" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4vYBAL8FEfCFWfIa1pIK_g" name="UseCase53" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4xAYsL8FEfCFWfIa1pIK_g" name="UseCase54" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4yeYUL8FEfCFWfIa1pIK_g" name="UseCase55" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4z7w4L8FEfCFWfIa1pIK_g" name="UseCase56" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_41tSgL8FEfCFWfIa1pIK_g" name="UseCase57" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_47ysYL8FEfCFWfIa1pIK_g" name="UseCase58" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_49R6IL8FEfCFWfIa1pIK_g" name="UseCase59" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5mWsUL8FEfCFWfIa1pIK_g" name="UseCase60" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5n_rEL8FEfCFWfIa1pIK_g" name="UseCase61" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ACWfYL8GEfCFWfIa1pIK_g" name="UseCase63" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ALU1ML8GEfCFWfIa1pIK_g" name="UseCase64" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AM8l0L8GEfCFWfIa1pIK_g" name="UseCase65" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AOcaoL8GEfCFWfIa1pIK_g" name="UseCase66" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AQELQL8GEfCFWfIa1pIK_g" name="UseCase67" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ARtKAL8GEfCFWfIa1pIK_g" name="UseCase68" subject="_6GP_QL8DEfCFWfIa1pIK_g"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WH5FEL8EEfCFWfIa1pIK_g" name="Property22"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_V2xf4L8EEfCFWfIa1pIK_g" name="Operation20"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1aqH8L8FEfCFWfIa1pIK_g" name="Operation45"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1oJKUL8FEfCFWfIa1pIK_g" name="Operation46"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1uitQL8FEfCFWfIa1pIK_g" name="Operation47"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1whqQL8FEfCFWfIa1pIK_g" name="Operation48"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_n4lNkL8GEfCFWfIa1pIK_g" name="Operation77"/>
+        <ownedReception xmi:type="uml:Reception" xmi:id="_WOZVsL8EEfCFWfIa1pIK_g" name="Reception23"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="__pT_ML8DEfCFWfIa1pIK_g" name="DataType1"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="__5kBsL8DEfCFWfIa1pIK_g" name="DataType2"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KTtFUL8EEfCFWfIa1pIK_g" name="Class13"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KfzAkL8EEfCFWfIa1pIK_g" name="Class14"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KqBTkL8EEfCFWfIa1pIK_g" name="Class15"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KrXXYL8EEfCFWfIa1pIK_g" name="Class16"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_VTvrUL8EEfCFWfIa1pIK_g" name="DataType17"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_VfhdgL8EEfCFWfIa1pIK_g" name="Enumeration18"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VtjScL8EEfCFWfIa1pIK_g" name="Interface19"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_V-kxAL8EEfCFWfIa1pIK_g" name="PrimitiveType21"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_XIN5oL8EEfCFWfIa1pIK_g" name="Component26"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_XOWW0L8EEfCFWfIa1pIK_g" name="Component27"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_XP_VkL8EEfCFWfIa1pIK_g" name="Component28"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YSO1sL8EEfCFWfIa1pIK_g" name="Component29"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YUBlcL8EEfCFWfIa1pIK_g" name="Component30"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YVflEL8EEfCFWfIa1pIK_g" name="Component31"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YXGuoL8EEfCFWfIa1pIK_g" name="Component32"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YY6FcL8EEfCFWfIa1pIK_g" name="Component33"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YahPAL8EEfCFWfIa1pIK_g" name="Component34"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YcJmsL8EEfCFWfIa1pIK_g" name="Component35"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YeGHcL8EEfCFWfIa1pIK_g" name="Component36"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YfvGML8EEfCFWfIa1pIK_g" name="Component37"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YhhO4L8EEfCFWfIa1pIK_g" name="Component38"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YjVz0L8EEfCFWfIa1pIK_g" name="Component39"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Yk-LgL8EEfCFWfIa1pIK_g" name="Component40"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YopxoL8EEfCFWfIa1pIK_g" name="Component41"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_YrPLkL8EEfCFWfIa1pIK_g" name="Component42"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Y-8xwL8EEfCFWfIa1pIK_g" name="Component43"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_ZAoMwL8EEfCFWfIa1pIK_g" name="Component44"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3vsssL8FEfCFWfIa1pIK_g" name="Class49"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_AbtakL8GEfCFWfIa1pIK_g" name="Component69"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_AgraIL8GEfCFWfIa1pIK_g" name="Component70"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_AiTKwL8GEfCFWfIa1pIK_g" name="Component71"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Aj8JgL8GEfCFWfIa1pIK_g" name="Component72"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_AlZiEL8GEfCFWfIa1pIK_g" name="Component73"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_B8wWkL8GEfCFWfIa1pIK_g" name="Class74"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CP-0kL8GEfCFWfIa1pIK_g" name="Class75"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_CZtYUL8GEfCFWfIa1pIK_g" name="DataType76"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tAI9QL8GEfCFWfIa1pIK_g" name="DataType78"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_xsy5oL8GEfCFWfIa1pIK_g" name="Component79"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ygJzwL8HEfCFWfIa1pIK_g" name="Cloud Backend">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Bu2EIL8LEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_BwoM0L8LEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ByIosL8LEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Bz7YcL8LEfCFWfIa1pIK_g"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1cvj4L8LEfCFWfIa1pIK_g" annotatedElement="_iU820L8PEfCFWfIa1pIK_g">
+          <body>Create Backup</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_EDlRcL8MEfCFWfIa1pIK_g" annotatedElement="_QHWTYL8OEfCFWfIa1pIK_g">
+          <body>Manage Event</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_fxBksL8TEfCFWfIa1pIK_g" annotatedElement="_cv4u8L8TEfCFWfIa1pIK_g">
+          <body>Propagate Update</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_vISpoL8TEfCFWfIa1pIK_g" annotatedElement="_cv4u8L8TEfCFWfIa1pIK_g _nFTgEL8SEfCFWfIa1pIK_g">
+          <body>Log Action</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_f9h6ML8UEfCFWfIa1pIK_g" annotatedElement="_9LolYL8PEfCFWfIa1pIK_g">
+          <body>Login (To get token)</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_7MAdsL8UEfCFWfIa1pIK_g" annotatedElement="_v21VML8UEfCFWfIa1pIK_g">
+          <body>(Async) Get Token Validation Key</body>
+        </ownedComment>
+        <ownedTemplateSignature xmi:type="uml:TemplateSignature" xmi:id="_B82q8L8LEfCFWfIa1pIK_g"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_RQxoUL8IEfCFWfIa1pIK_g" name="&lt;&lt;GATEWAY>> API Gateway">
+          <generalization xmi:type="uml:Generalization" xmi:id="_QHWTYL8OEfCFWfIa1pIK_g" general="_6LpREL8NEfCFWfIa1pIK_g"/>
+          <generalization xmi:type="uml:Generalization" xmi:id="_iU820L8PEfCFWfIa1pIK_g" general="_CUgZIL8PEfCFWfIa1pIK_g"/>
+          <generalization xmi:type="uml:Generalization" xmi:id="_9LolYL8PEfCFWfIa1pIK_g" general="_01gn8L8PEfCFWfIa1pIK_g"/>
+          <generalization xmi:type="uml:Generalization" xmi:id="_v21VML8UEfCFWfIa1pIK_g" general="_WnILgL8UEfCFWfIa1pIK_g"/>
+          <substitution xmi:type="uml:Substitution" xmi:id="_w9iekL8UEfCFWfIa1pIK_g" client="_RQxoUL8IEfCFWfIa1pIK_g" supplier="_WnILgL8UEfCFWfIa1pIK_g" contract="_WnILgL8UEfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_nPaX8L8KEfCFWfIa1pIK_g" name="UseCase3"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_zyuHgL8KEfCFWfIa1pIK_g" name="Backup Service">
+          <substitution xmi:type="uml:Substitution" xmi:id="_ojS9gL8REfCFWfIa1pIK_g" client="_zyuHgL8KEfCFWfIa1pIK_g" supplier="_fFHy4L8REfCFWfIa1pIK_g" contract="_fFHy4L8REfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_57ljML8KEfCFWfIa1pIK_g" name="Event Service">
+          <substitution xmi:type="uml:Substitution" xmi:id="_LnhxwL8REfCFWfIa1pIK_g" name="Publish 'Event Update'" client="_57ljML8KEfCFWfIa1pIK_g" supplier="_5RkuIL8QEfCFWfIa1pIK_g" contract="_5RkuIL8QEfCFWfIa1pIK_g"/>
+          <substitution xmi:type="uml:Substitution" xmi:id="_PF2dUL8SEfCFWfIa1pIK_g" client="_57ljML8KEfCFWfIa1pIK_g" supplier="_fFHy4L8REfCFWfIa1pIK_g" contract="_fFHy4L8REfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_AlqOgL8LEfCFWfIa1pIK_g" name="UseCase5"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_AtIIcL8LEfCFWfIa1pIK_g" name="UseCase6"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Au5qEL8LEfCFWfIa1pIK_g" name="UseCase7"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_AwrywL8LEfCFWfIa1pIK_g" name="UseCase8"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_AyeigL8LEfCFWfIa1pIK_g" name="UseCase9"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_A5LncL8LEfCFWfIa1pIK_g" name="UseCase10"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_A7AMYL8LEfCFWfIa1pIK_g" name="UseCase11"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_A8xuAL8LEfCFWfIa1pIK_g" name="UseCase12"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_A-aFsL8LEfCFWfIa1pIK_g" name="UseCase13"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BAVYUL8LEfCFWfIa1pIK_g" name="UseCase14"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BCAzUL8LEfCFWfIa1pIK_g" name="UseCase15"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BDzjEL8LEfCFWfIa1pIK_g" name="UseCase16"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BXwZ0L8LEfCFWfIa1pIK_g" name="UseCase17"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BZamsL8LEfCFWfIa1pIK_g" name="UseCase18"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BbMvYL8LEfCFWfIa1pIK_g" name="UseCase19"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_Bcyq0L8LEfCFWfIa1pIK_g" name="UseCase20"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BemBoL8LEfCFWfIa1pIK_g" name="UseCase21"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BgXjQL8LEfCFWfIa1pIK_g" name="UseCase22"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BiAiAL8LEfCFWfIa1pIK_g" name="UseCase23"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_BjoSoL8LEfCFWfIa1pIK_g" name="UseCase24"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_B3Dk8L8LEfCFWfIa1pIK_g" name="Actor29"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_B41GkL8LEfCFWfIa1pIK_g" name="Actor30"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_B69NgL8LEfCFWfIa1pIK_g" name="Actor31"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CENQIL8LEfCFWfIa1pIK_g" name="PrimitiveType33"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CGdS4L8LEfCFWfIa1pIK_g" name="PrimitiveType34"/>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_GQm_IL8LEfCFWfIa1pIK_g" name="StateMachine35"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6LpREL8NEfCFWfIa1pIK_g" name="Event API">
+          <generalization xmi:type="uml:Generalization" xmi:id="_5m2FcL8OEfCFWfIa1pIK_g" general="_57ljML8KEfCFWfIa1pIK_g"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EE5OIL8OEfCFWfIa1pIK_g" name="Property1">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_GOVm4L8OEfCFWfIa1pIK_g">
+              <body></body>
+            </ownedComment>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_CUgZIL8PEfCFWfIa1pIK_g" name="Backup API">
+          <generalization xmi:type="uml:Generalization" xmi:id="_y8B90L8PEfCFWfIa1pIK_g" general="_zyuHgL8KEfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_01gn8L8PEfCFWfIa1pIK_g" name="AuditRead API">
+          <generalization xmi:type="uml:Generalization" xmi:id="_KwuQIL8SEfCFWfIa1pIK_g" general="_IYEWsL8SEfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Component" xmi:id="_5RkuIL8QEfCFWfIa1pIK_g" name="&lt;&lt;Broker>> Message Bus">
+          <generalization xmi:type="uml:Generalization" xmi:id="_nFTgEL8SEfCFWfIa1pIK_g" general="_IYEWsL8SEfCFWfIa1pIK_g"/>
+          <generalization xmi:type="uml:Generalization" xmi:id="_cv4u8L8TEfCFWfIa1pIK_g" general="_Yc7sAL8TEfCFWfIa1pIK_g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_fFHy4L8REfCFWfIa1pIK_g" name="Read for Backup"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_IYEWsL8SEfCFWfIa1pIK_g" name="Audit Service"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_Yc7sAL8TEfCFWfIa1pIK_g" name="Notification Service"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_ETT14L8UEfCFWfIa1pIK_g" name="Authentication Service"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WnILgL8UEfCFWfIa1pIK_g" name="Authentication API">
+          <generalization xmi:type="uml:Generalization" xmi:id="_0u0-4L8UEfCFWfIa1pIK_g" general="_ETT14L8UEfCFWfIa1pIK_g"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GOjCQL8OEfCFWfIa1pIK_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GOn6wL8OEfCFWfIa1pIK_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_GOtaUL8OEfCFWfIa1pIK_g" base_Comment="_GOVm4L8OEfCFWfIa1pIK_g" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>
