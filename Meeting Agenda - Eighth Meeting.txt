@@ -1,0 +1,33 @@
+Meeting Agenda - Eighth Meeting
+Date: Wednesday 12th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions):
+We have done research into creating the system architecture models, as well as created our draft individual models. 
+We have all finalised our activity diagrams based on one use case from our subsystems. 
+We have all cloned and committed our diagrams to the group Git repository.
+
+Cross-checking the finalised activity diagrams:
+As we have all finalised our activity diagrams, we will cross-check them. Therefore, we can provide recommendations for improvements. 
+
+Cross-checking the system architectural models:
+We will all cross-check each other's individual system architecture models, so that we can all be provided with recommendations for improvement. 
+Each of us will carry on working on this model throughout the rest of the week, while implementing the improvement recommendations. 
+
+Actions to take place after the meeting:
+We will attempt to finish the architectural designs of the subsystems before next week’s meeting, so that we will be able to integrate the architectural designs of the subsystems. 
+We will start to work on task 5 of the project, which is to create the structural model, by selecting one component in the architectural design of the subsystem. Therefore, the model can be cross-checked in next week’s meeting. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+Date/Time of the following meeting - Wednesday 19th November 2025 (13:00pm till 14:00pm)
