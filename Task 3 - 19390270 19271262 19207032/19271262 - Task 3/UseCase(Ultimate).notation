@@ -306,12 +306,12 @@
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_xMtyg66LEfCy7LlARt0Vrg" y="15"/>
               </children>
               <element xmi:type="uml:ActivityFinalNode" href="UseCase(Ultimate).uml#_xMa3kK6LEfCy7LlARt0Vrg"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xMtLca6LEfCy7LlARt0Vrg" x="553" y="135"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xMtLca6LEfCy7LlARt0Vrg" x="534" y="129" height="36"/>
             </children>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9UAqka6CEfCy7LlARt0Vrg"/>
           </children>
           <element xmi:type="uml:ActivityPartition" href="UseCase(Ultimate).uml#_9Tj-oK6CEfCy7LlARt0Vrg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9T-1Ya6CEfCy7LlARt0Vrg" x="175" y="48" width="681" height="181"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9T-1Ya6CEfCy7LlARt0Vrg" x="175" y="48" width="701" height="201"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_NlXZMK6DEfCy7LlARt0Vrg" type="ActivityPartition_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_NlYAQK6DEfCy7LlARt0Vrg" type="ActivityPartition_NameLabel"/>
@@ -553,8 +553,8 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_5TP0wa6LEfCy7LlARt0Vrg"/>
       <element xmi:type="uml:ControlFlow" href="UseCase(Ultimate).uml#_5TDAcK6LEfCy7LlARt0Vrg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5TP0wq6LEfCy7LlARt0Vrg" points="[186, 141, 186, 140]$[186, 173, 186, 172]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5T0cgK6LEfCy7LlARt0Vrg" id="(0.5405405405405406,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5T0cga6LEfCy7LlARt0Vrg" id="(0.25,0.1)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5T0cgK6LEfCy7LlARt0Vrg" id="(0.45714285714285713,0.95)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5T0cga6LEfCy7LlARt0Vrg" id="(0.5,0.25)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_PG-m0K6MEfCy7LlARt0Vrg" type="ControlFlow_Edge" source="_asl0gK6LEfCy7LlARt0Vrg" target="_kpS9YLpAEfCTq6Sa9PtykQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_PG-m066MEfCy7LlARt0Vrg" type="ControlFlow_NameLabel">
