@@ -1,0 +1,37 @@
+Meeting Minutes - Eighth Meeting
+Date: Wednesday 12th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have done research into creating the system architecture models, as well as created our draft individual models. 
+We have all finalised our activity diagrams based on one use case from our subsystems. 
+We have all cloned and committed our diagrams to the group Git repository.
+
+Cross-checking the finalised activity diagrams:
+We reviewed Charlotte’s finalised activity diagram, which we all agreed looked good. Ryan had one suggestion to add a note on one of the decision nodes, where she had forgotten to add the two decision choices. 
+Cross-checking the system architectural models:
+From the progress of Ryan’s system architectural model, Charlotte and Gauthier think that the nodes are labelled clearly. However, he hasn’t done too much work on the model so far. 
+Charlotte was unable to present her system architecture model due to challenges with the Papyrus software. She plans to have her draft individual architectural model completed by next week. 
+From the progress on Gauthiers, Ryan noticed that he forgot to include the main components to represent the subsystem and cloud. Charlotte thought, and even though the node (components) were labelled clearly, the overlapping connections were confusing. 
+Matheus was also unable to show a draft of the architecture model; however, he will show one by the end of the week.
+
+Actions to take place after the meeting:
+We will finish the architectural designs of the subsystems before next week’s meeting. 
+After next week's lecture, we will start working on integrating the system architectural models for the second part of task 4. 
+We will start to work on task 5 of the project, which is to create the structural model, by selecting one component in the architectural design of the subsystem. Therefore, the model can be cross-checked in next week’s meeting. 
+
+Issues to be solved:
+We only faced challenges with setting up folders on the GitHub repository. However, Ryan helped us all to resolve this issue briefly during the meeting. 
+We have not faced any other issues that need to be resolved since the previous meeting.
+
+
+Date/Time of the following meeting - Wednesday 19th November 2025 (13:00pm till 14:00pm)
+
+
