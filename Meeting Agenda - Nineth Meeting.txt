@@ -1,0 +1,39 @@
+Meeting Agenda - Nineth Meeting
+Date: Wednesday 19th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our Software Architecture Diagrams for Part A, so we can combine them for Part B. 
+We have created our draft structural models using Papyrus. 
+
+Cross-checking the Software Architecture Diagrams:
+As we have all created the software architecture diagrams for each subsystem, we will cross-check them. Therefore, we can provide recommendations for improvements. 
+
+Cross-checking the Structural Models:
+We will all cross-check each other's Structural Models, so that we can all be provided with recommendations for improvement. 
+Each of us will carry on working on this model throughout the rest of the week, while implementing the improvement recommendations. 
+
+Discuss the Whole System Architecture Model:
+We will discuss how we will connect all of the individual Software Architecture Models, so we can create the whole Software Architecture Model.
+
+Actions to take place after the meeting:
+We will finalise the Structural Models, based on the feedback from the cross-checking on the draft version. 
+We will work on the draft behaviour diagrams. 
+We will all start working on the whole architectural model that connects all of the subsystems. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+Date/Time of the following meeting - Wednesday 26th November 2025 (13:00pm till 14:00pm)
+
+
+
