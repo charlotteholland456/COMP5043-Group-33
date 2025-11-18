@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SRZnUMR4EfCjdu_JO0_cxw" name="USUStudentApplication - Structural Diagram">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SRZnUMR4EfCjdu_JO0_cxw" name="USUStudentApplication - Structural Diagram">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_SW5LUMR4EfCjdu_JO0_cxw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fv8a0MSeEfC5K_fFD2VJ3Q" name="UserDataManagerService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qR3D8MSqEfC5K_fFD2VJ3Q" name="userdatabase" type="_GPQYYMSqEfC5K_fFD2VJ3Q" association="_qRZw8MSqEfC5K_fFD2VJ3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8uZQsMSqEfC5K_fFD2VJ3Q" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8uZQscSqEfC5K_fFD2VJ3Q" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_d3_HwMSrEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_UeIS4MSfEfC5K_fFD2VJ3Q" contract="_UeIS4MSfEfC5K_fFD2VJ3Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_k-pocMSrEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_fLU1YMSfEfC5K_fFD2VJ3Q" contract="_fLU1YMSfEfC5K_fFD2VJ3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_UeIS4MSfEfC5K_fFD2VJ3Q" name="Registration">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qwnyoMShEfC5K_fFD2VJ3Q" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q0JAsMShEfC5K_fFD2VJ3Q" name="StudentIDNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cP8FgMSjEfC5K_fFD2VJ3Q" name="StudyProgram">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ns0YgMSjEfC5K_fFD2VJ3Q" name="YearOfStart">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zWWAYMSjEfC5K_fFD2VJ3Q" name="LengthOfStudyProgram">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__mj00MSjEfC5K_fFD2VJ3Q" name="PostAddress" aggregation="composite">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jDjR4MSkEfC5K_fFD2VJ3Q" name="MobilePhoneNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sl3VoMSkEfC5K_fFD2VJ3Q" name="EmailAddress">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kKeIkMSiEfC5K_fFD2VJ3Q" name="RegisterApplication">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ywvOYMSiEfC5K_fFD2VJ3Q" name="Name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OF_dYMSlEfC5K_fFD2VJ3Q" name="StudentIDNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_j4zCYMSlEfC5K_fFD2VJ3Q" name="UploadDocuments"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fLU1YMSfEfC5K_fFD2VJ3Q" name="UpdateData">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mbF4oMSoEfC5K_fFD2VJ3Q" name="SetStudyProgram">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XxLzgMSpEfC5K_fFD2VJ3Q" name="studyProgram">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tO05cMSsEfC5K_fFD2VJ3Q" name="SetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FXSuQMStEfC5K_fFD2VJ3Q" name="Name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KfJ_8MStEfC5K_fFD2VJ3Q" name="SetContactAddresses">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O0wHMMStEfC5K_fFD2VJ3Q" name="PostAddress">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_W8jUwMStEfC5K_fFD2VJ3Q" name="SetEmailAddress">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YIaq8MStEfC5K_fFD2VJ3Q" name="LiteralInteger1" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YIaq8cStEfC5K_fFD2VJ3Q" name="LiteralUnlimitedNatural1" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mA1zUMStEfC5K_fFD2VJ3Q" name="mobilePhoneNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7cojUMSpEfC5K_fFD2VJ3Q" name="Student">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ndosAMSuEfC5K_fFD2VJ3Q" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uOD28MSuEfC5K_fFD2VJ3Q" name="StudentIDNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2nLeAMSuEfC5K_fFD2VJ3Q" name="YearOfStart">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Lwk5oMSvEfC5K_fFD2VJ3Q" name="StudyProgram">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YK8voMSvEfC5K_fFD2VJ3Q" name="LengthOfStudyProgram">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gfoioMSvEfC5K_fFD2VJ3Q" name="PostAddress">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oQiTIMSvEfC5K_fFD2VJ3Q" name="MobilePhoneNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xXNjwMSvEfC5K_fFD2VJ3Q" name="EmailAddress">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GPQYYMSqEfC5K_fFD2VJ3Q" name="UserDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c0cxssSsEfC5K_fFD2VJ3Q" name="student" type="_7cojUMSpEfC5K_fFD2VJ3Q" association="_c0bjkMSsEfC5K_fFD2VJ3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c0dYwMSsEfC5K_fFD2VJ3Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c0dYwcSsEfC5K_fFD2VJ3Q" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qRZw8MSqEfC5K_fFD2VJ3Q" memberEnd="_qR3D8MSqEfC5K_fFD2VJ3Q _qR3rAcSqEfC5K_fFD2VJ3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qRq2sMSqEfC5K_fFD2VJ3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qRrdwMSqEfC5K_fFD2VJ3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qR3rAcSqEfC5K_fFD2VJ3Q" name="userdatamanagerservice" type="_fv8a0MSeEfC5K_fFD2VJ3Q" association="_qRZw8MSqEfC5K_fFD2VJ3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_v-goQMSrEfC5K_fFD2VJ3Q" name="Authenticate "/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CE4-0MSsEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_v-goQMSrEfC5K_fFD2VJ3Q"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c0bjkMSsEfC5K_fFD2VJ3Q" memberEnd="_c0cxssSsEfC5K_fFD2VJ3Q _c0hqMMSsEfC5K_fFD2VJ3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0cxsMSsEfC5K_fFD2VJ3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0cxscSsEfC5K_fFD2VJ3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_c0hqMMSsEfC5K_fFD2VJ3Q" name="userdatabase" type="_GPQYYMSqEfC5K_fFD2VJ3Q" association="_c0bjkMSsEfC5K_fFD2VJ3Q"/>
+  </packagedElement>
 </uml:Model>
