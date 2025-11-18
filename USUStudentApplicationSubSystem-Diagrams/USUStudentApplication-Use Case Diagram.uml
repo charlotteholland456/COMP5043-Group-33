@@ -4,21 +4,12 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_SpYNELAtEfCmlLfJy_rVkw" name="User-Student"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem" useCase="_E7m8oLDJEfCkddQUiDMVqw _Z7kXcLHREfCGxr5Yw3rBZg _dYz6YLHREfCGxr5Yw3rBZg _nyENMLHREfCGxr5Yw3rBZg _2aq1ULHREfCGxr5Yw3rBZg _5nc6YLHREfCGxr5Yw3rBZg _7ad6sLHSEfCGxr5Yw3rBZg _zS1CwLm1EfCQCJgiyuUBxQ _cDClkLm5EfCQCJgiyuUBxQ _-1_nILm5EfCQCJgiyuUBxQ _uTisALm6EfCQCJgiyuUBxQ _YFkYgLm7EfCQCJgiyuUBxQ _eYnZALm9EfCQCJgiyuUBxQ _zXdKcLm9EfCQCJgiyuUBxQ _2x6fILm9EfCQCJgiyuUBxQ _4wrTYL1WEfCCgojud2sFFw _tPxmkL1XEfCCgojud2sFFw _O3uNkL1YEfCCgojud2sFFw _f1jnsL1YEfCCgojud2sFFw _Rc5DkL1ZEfCCgojud2sFFw _gzzjML1ZEfCCgojud2sFFw _nkCg4L1ZEfCCgojud2sFFw _APg8IL1aEfCCgojud2sFFw _Xj1XML1aEfCCgojud2sFFw _tBDGsL1aEfCCgojud2sFFw _90a9QL1aEfCCgojud2sFFw">
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_E7m8oLDJEfCkddQUiDMVqw" name="Search for Societies" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <include xmi:type="uml:Include" xmi:id="_LTcD8L1XEfCCgojud2sFFw" addition="_4wrTYL1WEfCCgojud2sFFw"/>
-    </ownedUseCase>
+  <packagedElement xmi:type="uml:Component" xmi:id="__bEIoLAtEfCwDIzn2lPEGg" name="USUStudentApplication-Subsystem" useCase="_E7m8oLDJEfCkddQUiDMVqw _Z7kXcLHREfCGxr5Yw3rBZg _nyENMLHREfCGxr5Yw3rBZg _2aq1ULHREfCGxr5Yw3rBZg _5nc6YLHREfCGxr5Yw3rBZg _7ad6sLHSEfCGxr5Yw3rBZg _zS1CwLm1EfCQCJgiyuUBxQ _cDClkLm5EfCQCJgiyuUBxQ _eYnZALm9EfCQCJgiyuUBxQ _zXdKcLm9EfCQCJgiyuUBxQ _2x6fILm9EfCQCJgiyuUBxQ _tPxmkL1XEfCCgojud2sFFw _O3uNkL1YEfCCgojud2sFFw _f1jnsL1YEfCCgojud2sFFw _Rc5DkL1ZEfCCgojud2sFFw _gzzjML1ZEfCCgojud2sFFw _nkCg4L1ZEfCCgojud2sFFw _90a9QL1aEfCCgojud2sFFw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_E7m8oLDJEfCkddQUiDMVqw" name="Search for Societies" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Z7kXcLHREfCGxr5Yw3rBZg" name="Create a New Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <include xmi:type="uml:Include" xmi:id="_zBuKQLHWEfCGxr5Yw3rBZg" addition="_nyENMLHREfCGxr5Yw3rBZg"/>
     </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dYz6YLHREfCGxr5Yw3rBZg" name="Providing Society Details" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <generalization xmi:type="uml:Generalization" xmi:id="_xM-UkL1aEfCCgojud2sFFw" general="_APg8IL1aEfCCgojud2sFFw"/>
-      <generalization xmi:type="uml:Generalization" xmi:id="_yHk7oL1aEfCCgojud2sFFw" general="_Xj1XML1aEfCCgojud2sFFw"/>
-      <generalization xmi:type="uml:Generalization" xmi:id="_0cx4cL1aEfCCgojud2sFFw" general="_tBDGsL1aEfCCgojud2sFFw"/>
-    </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nyENMLHREfCGxr5Yw3rBZg" name="Submit Application to Union" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <include xmi:type="uml:Include" xmi:id="_-TVBYLHWEfCGxr5Yw3rBZg" addition="_dYz6YLHREfCGxr5Yw3rBZg"/>
-    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nyENMLHREfCGxr5Yw3rBZg" name="Submit Application to Union" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2aq1ULHREfCGxr5Yw3rBZg" name="Search for Events" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <include xmi:type="uml:Include" xmi:id="_YKUNgLHXEfCGxr5Yw3rBZg" addition="_5nc6YLHREfCGxr5Yw3rBZg"/>
     </ownedUseCase>
@@ -33,18 +24,11 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_deO-MLHXEfCGxr5Yw3rBZg" name="ExtensionPoint1"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zS1CwLm1EfCQCJgiyuUBxQ" name="Update Personal Data" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <generalization xmi:type="uml:Generalization" xmi:id="_4FThALm6EfCQCJgiyuUBxQ" general="_uTisALm6EfCQCJgiyuUBxQ"/>
-      <generalization xmi:type="uml:Generalization" xmi:id="_8ZU68Lm6EfCQCJgiyuUBxQ" general="_-1_nILm5EfCQCJgiyuUBxQ"/>
       <extend xmi:type="uml:Extend" xmi:id="_Uul1oLm7EfCQCJgiyuUBxQ" extendedCase="_cDClkLm5EfCQCJgiyuUBxQ" extensionLocation="_UumcsLm7EfCQCJgiyuUBxQ"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cDClkLm5EfCQCJgiyuUBxQ" name="Register for University Union" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UumcsLm7EfCQCJgiyuUBxQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yfMXoLm7EfCQCJgiyuUBxQ" name="ExtensionPoint2"/>
-    </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-1_nILm5EfCQCJgiyuUBxQ" name="Change Contact Addresses" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uTisALm6EfCQCJgiyuUBxQ" name="Change Study Program" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YFkYgLm7EfCQCJgiyuUBxQ" name="Upload Supporting Documents" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <extend xmi:type="uml:Extend" xmi:id="_yfLwkLm7EfCQCJgiyuUBxQ" extendedCase="_cDClkLm5EfCQCJgiyuUBxQ" extensionLocation="_yfMXoLm7EfCQCJgiyuUBxQ"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eYnZALm9EfCQCJgiyuUBxQ" name="Get Tickets for Event" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <generalization xmi:type="uml:Generalization" xmi:id="_Bln5ULm-EfCQCJgiyuUBxQ" general="_2x6fILm9EfCQCJgiyuUBxQ"/>
@@ -53,10 +37,6 @@
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zXdKcLm9EfCQCJgiyuUBxQ" name="Register for Event" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2x6fILm9EfCQCJgiyuUBxQ" name="Buy Tickets for Event" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4wrTYL1WEfCCgojud2sFFw" name="Select a Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_M0EMYb1bEfCCgojud2sFFw" name="ExtensionPoint2"/>
-      <include xmi:type="uml:Include" xmi:id="_Fm_CAL1YEfCCgojud2sFFw" addition="_tPxmkL1XEfCCgojud2sFFw"/>
-    </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tPxmkL1XEfCCgojud2sFFw" name="View Information of a society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dklDkL1YEfCCgojud2sFFw" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rYW8gL1YEfCCgojud2sFFw" name="ExtensionPoint2"/>
@@ -70,7 +50,6 @@
       <extend xmi:type="uml:Extend" xmi:id="_rYVuYL1YEfCCgojud2sFFw" extendedCase="_tPxmkL1XEfCCgojud2sFFw" extensionLocation="_rYW8gL1YEfCCgojud2sFFw"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Rc5DkL1ZEfCCgojud2sFFw" name="Submit Message to a Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <extend xmi:type="uml:Extend" xmi:id="_M0EMYL1bEfCCgojud2sFFw" extendedCase="_4wrTYL1WEfCCgojud2sFFw" extensionLocation="_M0EMYb1bEfCCgojud2sFFw"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Y5ILoL1ZEfCCgojud2sFFw" name="ExtensionPoint1"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gzzjML1ZEfCCgojud2sFFw" name="Join a Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
@@ -79,9 +58,6 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nkCg4L1ZEfCCgojud2sFFw" name="Unsubscribe to a Society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_5zpE4L1ZEfCCgojud2sFFw" extendedCase="_tPxmkL1XEfCCgojud2sFFw" extensionLocation="_5zpr8L1ZEfCCgojud2sFFw"/>
     </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_APg8IL1aEfCCgojud2sFFw" name="Enter Organisation Team Details" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Xj1XML1aEfCCgojud2sFFw" name="Enter a Society Theme Description" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tBDGsL1aEfCCgojud2sFFw" name="Enter Contact Addresses" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_90a9QL1aEfCCgojud2sFFw" name="Unsubscribe to Event Updates" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extend xmi:type="uml:Extend" xmi:id="_IEoo0L1bEfCCgojud2sFFw" extendedCase="_5nc6YLHREfCGxr5Yw3rBZg" extensionLocation="_IEpP4L1bEfCCgojud2sFFw"/>
     </ownedUseCase>
