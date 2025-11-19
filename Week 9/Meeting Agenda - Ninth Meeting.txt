@@ -1,0 +1,38 @@
+Meeting Minutes - Ninth Meeting
+Date: Wednesday 19th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our Software Architecture Diagrams for Part A, so we can combine them for Part B. 
+We have created our draft structural models using Papyrus. 
+
+Cross-checking the Software Architecture Diagrams:
+From Gauthier’s diagram, Ryan thinks that some adjustments could be made to the interface labels, as some of the connections overlap them. This makes the diagram slightly unclear to understand. 
+From Gonzalez’s diagram, Charlotte and Gauthier noticed that he didn’t make the Software Architecture diagram correctly. For instance, he forgot to use the service components and the interface components. 
+From Charlotte’s diagram, Gauthier suggested that I make the line connections more clearer from the get session token to avoid confusion. Ryan suggested that she shrunk down the side of the cloud service component, so there is less dead space. 
+
+Cross-checking the Structural Models:
+From Charlotte’s Structural Model, everyone else thought that she should find a return file data type for the “uploadDocuments()” operation in the Registration interface.   
+Everyone else is going to start working on the structural models, as they ran out of time to produce their draft versions. 
+
+Discuss the Whole System Architecture Model:
+During our discussion, we have decided that Charlotte and Ryan will be in charge of creating the draft of the whole architecture system. 
+We will all meet face-to-face next Tuesday to make modifications to the Whole System Architecture diagrams. 
+
+Actions to take place after the meeting:
+We will all work on the structural models, while Charlotte improves her model based on the cross-checking during the meeting. 
+We will work on the draft behaviour diagrams. 
+We will all start working on the whole architectural model that connects all of the subsystems. 
+
+Issues to be solved:
+We think the progress has gone well so far, but we had some issues with the Software Architecture Models. 
+Charlotte is going to help Gonzales to fix his Software Architecture diagrams tomorrow. 
+
+Date/Time of the following meeting - Wednesday 26th November 2025 (13:00pm till 14:00pm)
