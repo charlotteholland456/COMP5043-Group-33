@@ -66,7 +66,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_oJsGUL7zEfCt3L5Hc083jQ" name="StudentSubsystem-CloudServices">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_XzX4sMLkEfCL083Ra94ypQ" name="Authenticate"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_ZjpjgMLkEfCL083Ra94ypQ" name="Check Password"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_ZjpjgMLkEfCL083Ra94ypQ" name="Check Data Input"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_276v8MLiEfCL083Ra94ypQ" name="Authentication Manager">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_krHnMMLkEfCL083Ra94ypQ" client="_276v8MLiEfCL083Ra94ypQ" supplier="_XzX4sMLkEfCL083Ra94ypQ" contract="_XzX4sMLkEfCL083Ra94ypQ"/>
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_44so4MLmEfCL083Ra94ypQ" client="_276v8MLiEfCL083Ra94ypQ" supplier="_vbPFYMLlEfCL083Ra94ypQ" contract="_vbPFYMLlEfCL083Ra94ypQ"/>
