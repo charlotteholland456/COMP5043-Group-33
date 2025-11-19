@@ -93,9 +93,24 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c0dYwMSsEfC5K_fFD2VJ3Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c0dYwcSsEfC5K_fFD2VJ3Q" value="1"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_7mfYkMUaEfC9lOzpePNBww" name="AddStudentRegistrationData"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_KSU64MUbEfC9lOzpePNBww" name="UpdateStudentRegistrationData"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_M10LUMUbEfC9lOzpePNBww" name="DeleteStudentRegistrationData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7mfYkMUaEfC9lOzpePNBww" name="AddStudentRegistrationData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_quh9IMU_EfCkr7sA1_BP1A" name="student " type="_7cojUMSpEfC5K_fFD2VJ3Q"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_X-__EMVDEfCkr7sA1_BP1A" name="AddStudentReturn" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qtDZoMVDEfCkr7sA1_BP1A" name="FindStudentData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y7GZIMVDEfCkr7sA1_BP1A" name="StudentID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CFp3wMVEEfCkr7sA1_BP1A" name="FindStudentReturn" type="_7cojUMSpEfC5K_fFD2VJ3Q" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HMnxkMVEEfCkr7sA1_BP1A" name="DeleteStudentData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uQcLYMVEEfCkr7sA1_BP1A" name="student" type="_7cojUMSpEfC5K_fFD2VJ3Q"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xPjA0MVEEfCkr7sA1_BP1A" name="DeleteDataReturn" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qRZw8MSqEfC5K_fFD2VJ3Q" memberEnd="_qR3D8MSqEfC5K_fFD2VJ3Q _qR3rAcSqEfC5K_fFD2VJ3Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qRq2sMSqEfC5K_fFD2VJ3Q" source="org.eclipse.papyrus">
