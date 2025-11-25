@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YrLXYMlbEfC1sth7CiIK5w" type="PapyrusUMLComponentDiagram" name="Task 4 (b)" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_YrLXYclbEfC1sth7CiIK5w" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_YrLXYslbEfC1sth7CiIK5w"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_YrLXY8lbEfC1sth7CiIK5w" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+    <owner xmi:type="uml:Model" href="Group%20-%20Task%204%20(b).uml#_TUTZUMlbEfC1sth7CiIK5w"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Group%20-%20Task%204%20(b).uml#_TUTZUMlbEfC1sth7CiIK5w"/>
+</notation:Diagram>

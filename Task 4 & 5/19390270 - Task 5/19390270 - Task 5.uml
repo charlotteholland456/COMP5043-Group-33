@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PCFxQMnfEfC1sth7CiIK5w" name="19390270 - Task 5 (a)">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PFFa4MnfEfC1sth7CiIK5w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jFTygMngEfC1sth7CiIK5w" name="Union Event Management Service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bGdlQMnjEfC1sth7CiIK5w" name="eventRepository">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_g-y1IMnkEfC1sth7CiIK5w" name="createEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sq-S8MnlEfC1sth7CiIK5w" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2NLpAMnlEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-G5XQMnlEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DEGREMnmEfC1sth7CiIK5w" name="updateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FOUs8MnmEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ht0OMMnmEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_J0NS8MnmEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dj_QQMnmEfC1sth7CiIK5w" name="cancelEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fI700MnmEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_h7IPoMnmEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jwLswMnmEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_sWCXAMngEfC1sth7CiIK5w" name="Manage Event">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3NgoIMnmEfC1sth7CiIK5w" name="createEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3NgoIcnmEfC1sth7CiIK5w" name="eventId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3NgoIsnmEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3NgoI8nmEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4Uuu4MnmEfC1sth7CiIK5w" name="updateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Uuu4cnmEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Uuu4snmEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Uuu48nmEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4UvV8MnmEfC1sth7CiIK5w" name="cancelEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4UvV8cnmEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4UvV8snmEfC1sth7CiIK5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4UvV88nmEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6Wa50MnmEfC1sth7CiIK5w" name="publishEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_71UgwMnmEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-_bFQMnmEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mXChoMnjEfC1sth7CiIK5w" name="Event Repository">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wLtHYMnoEfC1sth7CiIK5w" name="dataSource">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UrUQgMoUEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_UrJ4cMoUEfC1sth7CiIK5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VxAtQMoUEfC1sth7CiIK5w" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VxAtQcoUEfC1sth7CiIK5w" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RR9I0MnkEfC1sth7CiIK5w" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IJ6e4MnnEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KY9JUMnnEfC1sth7CiIK5w" name="eventData">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PmQ7sMnnEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YIv6IMnnEfC1sth7CiIK5w" name="delete">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZZ6AAMnnEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bLLwYMnnEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jgP94MnnEfC1sth7CiIK5w" name="findByID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nDKrAMnnEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pt8PMMnnEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_mXP9AMnjEfC1sth7CiIK5w" client="_jFTygMngEfC1sth7CiIK5w" supplier="_mXChoMnjEfC1sth7CiIK5w"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_z_ewcMnnEfC1sth7CiIK5w" name="Notify Members">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4iXs0MnnEfC1sth7CiIK5w" name="notifyEventCreation">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__o_xQMnnEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BgMjcMnoEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IUkaQMnoEfC1sth7CiIK5w" name="notifyEventUpdate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IUkaQcnoEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IUkaQsnoEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Kf0w4MnoEfC1sth7CiIK5w" name="changes">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ov77MMnoEfC1sth7CiIK5w" name="notifyEventCancellation">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ov77McnoEfC1sth7CiIK5w" name="eventID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ov77MsnoEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fJ_S0MnoEfC1sth7CiIK5w" name="reason">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1Ng0YMnoEfC1sth7CiIK5w" name="Union Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_67dOoMnoEfC1sth7CiIK5w" name="eventID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9F2CkMnoEfC1sth7CiIK5w" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__viosMnoEfC1sth7CiIK5w" name="theme">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C4KmgMnpEfC1sth7CiIK5w" name="description ">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IXLz8MnpEfC1sth7CiIK5w" name="status">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KEqpcMnpEfC1sth7CiIK5w" name="unionID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vjb-8MoTEfC1sth7CiIK5w" name="venue" type="_5zN-wMnpEfC1sth7CiIK5w" association="_vjaw0MoTEfC1sth7CiIK5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QjkYAMoUEfC1sth7CiIK5w" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qjk_EMoUEfC1sth7CiIK5w" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wJ3QUsoUEfC1sth7CiIK5w" name="ticket" type="_7Z590MnrEfC1sth7CiIK5w" aggregation="composite" association="_wJh5IMoUEfC1sth7CiIK5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yiU8gMoUEfC1sth7CiIK5w" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yiU8gcoUEfC1sth7CiIK5w" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1-SGAcoUEfC1sth7CiIK5w" name="organiser" type="_54xXsMnqEfC1sth7CiIK5w" aggregation="composite" association="_1-KKMMoUEfC1sth7CiIK5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4pB1AMoUEfC1sth7CiIK5w" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4pCcEMoUEfC1sth7CiIK5w" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-6l5ssoUEfC1sth7CiIK5w" name="event registration" type="_UPt2QMnrEfC1sth7CiIK5w" aggregation="composite" association="_-6OtUMoUEfC1sth7CiIK5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VFG0EMoVEfC1sth7CiIK5w" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VFJQUMoVEfC1sth7CiIK5w" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NCKVUMnpEfC1sth7CiIK5w" name="getEventID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Om_lIMnpEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QFlqEMnpEfC1sth7CiIK5w" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Rmk7sMnpEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SwVZEMnpEfC1sth7CiIK5w" name="setStatus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UbmBAMnpEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZQAyQMnpEfC1sth7CiIK5w" name="status">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Vxc8sMoVEfC1sth7CiIK5w" name="addOrganiser">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y1ANQMoVEfC1sth7CiIK5w" name="organiserID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bDbMoMoVEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dhkDAMoVEfC1sth7CiIK5w" name="getAvailableCapacity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_koUDQMoVEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5zN-wMnpEfC1sth7CiIK5w" name="Venue">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GGtJoMnqEfC1sth7CiIK5w" name="venueID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LcKLYMnqEfC1sth7CiIK5w" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PXdjUMnqEfC1sth7CiIK5w" name="address">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RV5l8MnqEfC1sth7CiIK5w" name="capacity">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZFNbAMnqEfC1sth7CiIK5w" name="getVenueID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aAEgwMnqEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gvtBgMnqEfC1sth7CiIK5w" name="getCapacity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iiw6kMnqEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_54xXsMnqEfC1sth7CiIK5w" name="Organiser">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A9afIMnrEfC1sth7CiIK5w" name="organiserID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DnLWsMnrEfC1sth7CiIK5w" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_F24vgMnrEfC1sth7CiIK5w" name="role">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HwYAsMnrEfC1sth7CiIK5w" name="getOrganiserID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JPkikMnrEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K3DdwMnrEfC1sth7CiIK5w" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MRpMcMnrEfC1sth7CiIK5w" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_N2H28MnrEfC1sth7CiIK5w" name="setRole">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O227MMnrEfC1sth7CiIK5w" name="role">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QcA7IMnrEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UPt2QMnrEfC1sth7CiIK5w" name="Event Registration">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y2EWUMnrEfC1sth7CiIK5w" name="registrationId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_diVRIMnrEfC1sth7CiIK5w" name="eventID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gtAdYMnrEfC1sth7CiIK5w" name="studentID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_j8AwAMnrEfC1sth7CiIK5w" name="status">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nk9MoMnrEfC1sth7CiIK5w" name="getRegistrationID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_o21EMMnrEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qnPR4MnrEfC1sth7CiIK5w" name="getStatus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s6GsYMnrEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ugbJ8MnrEfC1sth7CiIK5w" name="confirm">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vjwPMMnrEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zTB9UMnrEfC1sth7CiIK5w" name="cancel">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0NSmIMnrEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7Z590MnrEfC1sth7CiIK5w" name="Ticket">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-oSlYMnrEfC1sth7CiIK5w" name="ticketID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BZe6oMnsEfC1sth7CiIK5w" name="eventID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E2cwwMnsEfC1sth7CiIK5w" name="price">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JCi9wMnsEfC1sth7CiIK5w" name="status">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L7Db8MnsEfC1sth7CiIK5w" name="getTicketID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ND8WoMnsEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Oy_SYMnsEfC1sth7CiIK5w" name="getPrice">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PeS5MMnsEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RVvjAMnsEfC1sth7CiIK5w" name="validate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_SapVkMnsEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T1PrUMnsEfC1sth7CiIK5w" name="refund">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UlWSkMnsEfC1sth7CiIK5w" name="Parameter1" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vjaw0MoTEfC1sth7CiIK5w" memberEnd="_vjb-8MoTEfC1sth7CiIK5w _vjb-88oTEfC1sth7CiIK5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vjbX4MoTEfC1sth7CiIK5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vjbX4coTEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vjb-88oTEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_vjaw0MoTEfC1sth7CiIK5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrJ4cMoUEfC1sth7CiIK5w" memberEnd="_UrUQgMoUEfC1sth7CiIK5w _UrU3ksoUEfC1sth7CiIK5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UrTpcMoUEfC1sth7CiIK5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UrTpccoUEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UrU3ksoUEfC1sth7CiIK5w" name="event repository" type="_mXChoMnjEfC1sth7CiIK5w" association="_UrJ4cMoUEfC1sth7CiIK5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_f0WacMoUEfC1sth7CiIK5w" client="_jFTygMngEfC1sth7CiIK5w" supplier="_sWCXAMngEfC1sth7CiIK5w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_oJp4gMoUEfC1sth7CiIK5w" client="_jFTygMngEfC1sth7CiIK5w" supplier="_z_ewcMnnEfC1sth7CiIK5w"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wJh5IMoUEfC1sth7CiIK5w" memberEnd="_wJ3QUsoUEfC1sth7CiIK5w _wJ33YsoUEfC1sth7CiIK5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wJ3QUMoUEfC1sth7CiIK5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wJ3QUcoUEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wJ33YsoUEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_wJh5IMoUEfC1sth7CiIK5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1-KKMMoUEfC1sth7CiIK5w" memberEnd="_1-SGAcoUEfC1sth7CiIK5w _1-StEsoUEfC1sth7CiIK5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1-Re8MoUEfC1sth7CiIK5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1-SGAMoUEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1-StEsoUEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_1-KKMMoUEfC1sth7CiIK5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-6OtUMoUEfC1sth7CiIK5w" memberEnd="_-6l5ssoUEfC1sth7CiIK5w _-6mgwsoUEfC1sth7CiIK5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-6l5sMoUEfC1sth7CiIK5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-6l5scoUEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-6mgwsoUEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_-6OtUMoUEfC1sth7CiIK5w"/>
+  </packagedElement>
+</uml:Model>
