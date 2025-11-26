@@ -1,0 +1,44 @@
+Meeting Minutes - Tenth Meeting
+Date: Wednesday 26th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our individual software architectural models for each subsystem,  so we can bring them all together for the whole software architecture model.
+We improved the structural models, regarding the cross-checking from the previous meeting. 
+Individually, we created the draft versions of the behaviour models. 
+
+Cross-checking the Behaviour/Activity models:
+We are still currently improving the models from last week. 
+However, we noticed that Gonzalez has not displayed service components correctly in the Cloud. 
+Most of us have not managed to work on the Behaviour diagrams, so we will cross-check them next week instead. 
+
+Planning the teamwork report:
+In pairs, each of us is going to work on separate sections of the report. 
+“Team Collaboration Mechanisms and Facilities” section - Charlotte and Gonzalez 
+“Team Operations Summary” - Ryan and Gaurhier
+
+Discuss the Whole System Architecture Model:
+Charlotte and Ryan have suggested that each of us create our software architecture diagrams again within the same Papyrus project. 
+However, some of the components/interfaces will get new names, due to duplications between each of the subsystems’ individual models. 
+We will all meet at 10 am face-to-face next week in Headington, so we can connect the architecture models. Gauhier has offered to sort out a room booking in the library. 
+
+Actions to take place after the meeting:
+We will finalise the Behaviour models based on the feedback from the cross-checking on the draft version. 
+We will finalise our diagrams for the Software Engineering Project. 
+We will write our individual reports 
+We will work on the group report collaboratively. 
+
+Issues to be solved:
+We have faced a couple of issues with understanding the behaviour diagrams, so we will do some research on how we will implement them. 
+
+Date/Time of the following meeting - Wednesday 3rd December 2025 (13:00pm till 14:00pm)
+
+
+
