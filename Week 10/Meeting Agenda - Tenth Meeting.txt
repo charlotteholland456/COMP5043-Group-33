@@ -1,0 +1,38 @@
+Meeting Agenda - Tenth Meeting
+Date: Wednesday 26th November 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our individual software architectural models for each subsystem,  so we can bring them all together for the whole software architecture model.
+We improved the structural models, regarding the cross-checking from the previous meeting. 
+Individually, we created the draft versions of the behaviour models. 
+
+Cross-checking the behaviour models:
+As we have all created the draft versions of the behaviour models, we will cross-check them. Therefore, we can provide recommendations for improvements. 
+
+Planning the team work report:
+We are going to plan who is working on which part of the report, as there are multiple things that need to be included. 
+Charlotte will explain how she has created a shared google document for all of us to work collaboratively. 
+
+Discuss the Whole System Architecture Model:
+We will discuss the process of creating the whole system architecture model, so we can make sure that everyone understands. 
+
+Actions to take place after the meeting:
+We will finalise the Behaviour models, based on the feedback from the cross-checking on the draft version. 
+We will finalise our diagrams for the Software Engineering Project. 
+We will write our individual reports 
+We will work on the group report collaboratively. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
+
+
+Date/Time of the following meeting - Wednesday 3rd December 2025 (13:00pm till 14:00pm)
