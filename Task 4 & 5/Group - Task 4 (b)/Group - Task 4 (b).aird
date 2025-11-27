@@ -11,6 +11,7 @@
   <semanticResources>../19390270%20-%20Task%204/19390270%20-%20Task%204.notation</semanticResources>
   <semanticResources>../19390270%20-%20Task%204/19390270%20-%20Task%204.di</semanticResources>
   <semanticResources>Group%20-%20Task%204%20(b).uml</semanticResources>
+  <semanticResources>platform:/resource/USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" uid="_yAs3AMuREfCy4ejcFUt6Bg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.usecase/description/papyrus_usecase.odesign#//@ownedViewpoints[name='UseCaseDiagram']"/>
   </ownedViews>
