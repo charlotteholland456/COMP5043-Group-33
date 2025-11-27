@@ -7,6 +7,7 @@
   <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
   <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
   <semanticResources>19390270%20-%20Task%204.uml</semanticResources>
+  <semanticResources>platform:/resource/19390270%20-%20Task%203/Coursework%20-%20Task%203.uml</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" uid="_r5AKkKNxEfCAuMZ0KCf5dA">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.papyrus.sirius.uml.diagram.clazz/description/papyrus_class.odesign#//@ownedViewpoints[name='ClassDiagram']"/>
   </ownedViews>

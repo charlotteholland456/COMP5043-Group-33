@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PCFxQMnfEfC1sth7CiIK5w" name="19390270 - Task 5 (a)">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PCFxQMnfEfC1sth7CiIK5w" name="19390270 - Task 5">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_PFFa4MnfEfC1sth7CiIK5w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -372,5 +372,21 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-6l5scoUEfC1sth7CiIK5w" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_-6mgwsoUEfC1sth7CiIK5w" name="union event" type="_1Ng0YMnoEfC1sth7CiIK5w" association="_-6OtUMoUEfC1sth7CiIK5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Jl5pAMoZEfC1sth7CiIK5w" name="Event Manager Internal Behaviour">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_bG2sYMobEfC1sth7CiIK5w" name=":UnionEventManager" coveredBy="_mdJPMMobEfC1sth7CiIK5w _mc-3IMobEfC1sth7CiIK5w _BjjUcMofEfC1sth7CiIK5w _BjlJoMofEfC1sth7CiIK5w _Q-LPYMofEfC1sth7CiIK5w _mdJ2QMobEfC1sth7CiIK5w"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mdJPMMobEfC1sth7CiIK5w" name="ActionExecutionSpecification2Start" covered="_bG2sYMobEfC1sth7CiIK5w" execution="_mc-3IMobEfC1sth7CiIK5w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_mc-3IMobEfC1sth7CiIK5w" name="ActionExecutionSpecification2" covered="_bG2sYMobEfC1sth7CiIK5w" finish="_mdJ2QMobEfC1sth7CiIK5w" start="_mdJPMMobEfC1sth7CiIK5w"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_BjjUcMofEfC1sth7CiIK5w" name="CombinedFragment5" covered="_bG2sYMobEfC1sth7CiIK5w" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_BjlJoMofEfC1sth7CiIK5w" name="InteractionOperand0" covered="_bG2sYMobEfC1sth7CiIK5w">
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_BjlJocofEfC1sth7CiIK5w" name="guard">
+          <specification xmi:type="uml:LiteralString" xmi:id="_MgUkAMofEfC1sth7CiIK5w" value="isValid = True"/>
+        </guard>
+      </operand>
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_Q-LPYMofEfC1sth7CiIK5w" name="InteractionOperand2" covered="_bG2sYMobEfC1sth7CiIK5w">
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mdJ2QMobEfC1sth7CiIK5w" name="ActionExecutionSpecification2Finish" covered="_bG2sYMobEfC1sth7CiIK5w" execution="_mc-3IMobEfC1sth7CiIK5w"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_Q-OSsMofEfC1sth7CiIK5w" name="guard"/>
+      </operand>
+    </fragment>
   </packagedElement>
 </uml:Model>
