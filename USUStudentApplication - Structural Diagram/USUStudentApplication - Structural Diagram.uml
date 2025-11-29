@@ -24,7 +24,7 @@
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_j4zCYMSlEfC5K_fFD2VJ3Q" name="UploadDocuments">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_6o1IYMUYEfC9lOzpePNBww" name="DocumentReturn" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
