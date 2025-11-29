@@ -10,6 +10,7 @@
     </ownedAttribute>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_d3_HwMSrEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_UeIS4MSfEfC5K_fFD2VJ3Q" contract="_UeIS4MSfEfC5K_fFD2VJ3Q"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_k-pocMSrEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_fLU1YMSfEfC5K_fFD2VJ3Q" contract="_fLU1YMSfEfC5K_fFD2VJ3Q"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_89Oj8M0bEfCI4oWSuDbdHw" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_v-goQMSrEfC5K_fFD2VJ3Q" contract="_v-goQMSrEfC5K_fFD2VJ3Q"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_UeIS4MSfEfC5K_fFD2VJ3Q" name="Registration">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_kKeIkMSiEfC5K_fFD2VJ3Q" name="RegisterApplication">
@@ -87,6 +88,17 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_xXNjwMSvEfC5K_fFD2VJ3Q" name="EmailAddress">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FltnQM0dEfCI4oWSuDbdHw" name="StudentPassword">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Jqkj0M0dEfCI4oWSuDbdHw" name="Societies" type="__3ZPAM0bEfCI4oWSuDbdHw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UE9fEM0dEfCI4oWSuDbdHw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UE9fEc0dEfCI4oWSuDbdHw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c5czgM0dEfCI4oWSuDbdHw" name="unionsocieties" type="__3ZPAM0bEfCI4oWSuDbdHw" association="_c5J4kM0dEfCI4oWSuDbdHw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d4vGQM0dEfCI4oWSuDbdHw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d4vtUM0dEfCI4oWSuDbdHw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_GPQYYMSqEfC5K_fFD2VJ3Q" name="UserDatabase">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_c0cxssSsEfC5K_fFD2VJ3Q" name="student" type="_7cojUMSpEfC5K_fFD2VJ3Q" association="_c0bjkMSsEfC5K_fFD2VJ3Q">
@@ -146,12 +158,60 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K2HRQM0aEfCI4oWSuDbdHw" name="checkPassword">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OWm8gM0aEfCI4oWSuDbdHw" name="StudentIDNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VoZIEM0aEfCI4oWSuDbdHw" name="StudentPassword">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hFoAYM0aEfCI4oWSuDbdHw" name="CheckPassword" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_CE4-0MSsEfC5K_fFD2VJ3Q" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_v-goQMSrEfC5K_fFD2VJ3Q"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_c0bjkMSsEfC5K_fFD2VJ3Q" memberEnd="_c0cxssSsEfC5K_fFD2VJ3Q _c0hqMMSsEfC5K_fFD2VJ3Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c0cxsMSsEfC5K_fFD2VJ3Q" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c0cxscSsEfC5K_fFD2VJ3Q" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_c0hqMMSsEfC5K_fFD2VJ3Q" name="userdatabase" type="_GPQYYMSqEfC5K_fFD2VJ3Q" association="_c0bjkMSsEfC5K_fFD2VJ3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_nudVkM0aEfCI4oWSuDbdHw" name="Authenticate">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ugcmwM0aEfCI4oWSuDbdHw" name="SetStudyProgramPermitted">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1oK3YM0aEfCI4oWSuDbdHw" name="StudentIDNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8hkYIM0aEfCI4oWSuDbdHw" name="SetNamePermitted">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_B9sCkM0bEfCI4oWSuDbdHw" name="studentIDNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HexskM0bEfCI4oWSuDbdHw" name="setContactAddressesPermitted">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RUEWsM0bEfCI4oWSuDbdHw" name="studentIDNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_1G-ZYM0bEfCI4oWSuDbdHw" client="_fv8a0MSeEfC5K_fFD2VJ3Q" supplier="_nudVkM0aEfCI4oWSuDbdHw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__3ZPAM0bEfCI4oWSuDbdHw" name="UnionSocieties">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ICpZMM0cEfCI4oWSuDbdHw" name="SocietyID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3GeWgM0cEfCI4oWSuDbdHw" name="SocietyName ">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8NNm0M0cEfCI4oWSuDbdHw" name="SocietyDescription">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c5J4kM0dEfCI4oWSuDbdHw" memberEnd="_c5czgM0dEfCI4oWSuDbdHw _c5daks0dEfCI4oWSuDbdHw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c5PYIM0dEfCI4oWSuDbdHw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c5PYIc0dEfCI4oWSuDbdHw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_c5daks0dEfCI4oWSuDbdHw" name="student" type="_7cojUMSpEfC5K_fFD2VJ3Q" association="_c5J4kM0dEfCI4oWSuDbdHw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ew_j8M0dEfCI4oWSuDbdHw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_exALAM0dEfCI4oWSuDbdHw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
