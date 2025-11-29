@@ -62,7 +62,7 @@
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_7cojUMSpEfC5K_fFD2VJ3Q" name="StudentInformation">
+  <packagedElement xmi:type="uml:Class" xmi:id="_7cojUMSpEfC5K_fFD2VJ3Q" name="Student">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ndosAMSuEfC5K_fFD2VJ3Q" name="Name">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
