@@ -101,6 +101,171 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_f4z1QMZGEfCWJcncaayC-w" client="_XAM00L7-EfCFWfIa1pIK_g" supplier="_u4yRAMZFEfCWJcncaayC-w"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_nRtVcMZGEfCWJcncaayC-w" client="_dehiwMYHEfCgl7z3WJ2zIg" supplier="_2vB0gMZFEfCWJcncaayC-w"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_sMRK8MZGEfCWJcncaayC-w" client="_ESgw0MYIEfCgl7z3WJ2zIg" supplier="_cFiC0MZEEfCWJcncaayC-w"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_O5rwEM6pEfCYjpoq6se-mw" name="AuthorizationCheck"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_W3QDkM6pEfCYjpoq6se-mw" client="_XAM00L7-EfCFWfIa1pIK_g" supplier="_XAM00L7-EfCFWfIa1pIK_g"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_g4v9sM6pEfCYjpoq6se-mw" name="AuditLog"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rbb5UM6pEfCYjpoq6se-mw" name="EventRepository">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vuOkMM6pEfCYjpoq6se-mw" name="GetEventID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_INAKwM6rEfCYjpoq6se-mw" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VixSAM6rEfCYjpoq6se-mw" name="Event" type="_V8MzwM6tEfCYjpoq6se-mw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3zB2MM6rEfCYjpoq6se-mw" name="SaveEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_awTRYM6sEfCYjpoq6se-mw" name="event" type="_V8MzwM6tEfCYjpoq6se-mw"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8wbH0M6sEfCYjpoq6se-mw" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DlAaAM6tEfCYjpoq6se-mw" name="DeleteEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FjzpAM6tEfCYjpoq6se-mw" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HpwB0M6tEfCYjpoq6se-mw" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_P9ic8M6tEfCYjpoq6se-mw" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V8MzwM6tEfCYjpoq6se-mw" name="Event"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yQzR0M6tEfCTVOkEGwXjxQ" name="EventManagerController">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3xQpsM6tEfCTVOkEGwXjxQ" name="CreateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-3yAcM6tEfCTVOkEGwXjxQ" name="Details" type="_T-1SsM6uEfCTVOkEGwXjxQ"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZXBfYM6uEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cr0Q8M6uEfCTVOkEGwXjxQ" name="ModifyEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eUjJUM6uEfCTVOkEGwXjxQ" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_j188YM6uEfCTVOkEGwXjxQ" name="Updates" type="_T-1SsM6uEfCTVOkEGwXjxQ"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nhcWsM6uEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s8-yUM6uEfCTVOkEGwXjxQ" name="DeleteEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u3ohIM6uEfCTVOkEGwXjxQ" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xmMZIM6uEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0HnNAM6uEfCTVOkEGwXjxQ" name="CheckOfficerPermission" visibility="private">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IrXk8M6vEfCTVOkEGwXjxQ" name="OfficerID, Action">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LBfHwM6vEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QNPa8M6vEfCTVOkEGwXjxQ" name="PublishUpdate" visibility="private">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S6Y9sM6vEfCTVOkEGwXjxQ" name="" type="_T-1SsM6uEfCTVOkEGwXjxQ"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Wtk7cM6vEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_T-1SsM6uEfCTVOkEGwXjxQ" name="EventDetails"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_bahywM6vEfCTVOkEGwXjxQ" client="_yQzR0M6tEfCTVOkEGwXjxQ" supplier="_O5rwEM6pEfCYjpoq6se-mw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_capL8M6vEfCTVOkEGwXjxQ" client="_yQzR0M6tEfCTVOkEGwXjxQ" supplier="_g4v9sM6pEfCYjpoq6se-mw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0cliAM6vEfCTVOkEGwXjxQ" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4_iv0M6vEfCTVOkEGwXjxQ" name="EventID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IAsa0M6wEfCTVOkEGwXjxQ" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IAtB4M6wEfCTVOkEGwXjxQ" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_L32SkM6wEfCTVOkEGwXjxQ" name="Title" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SUyg0M6wEfCTVOkEGwXjxQ" name="Date" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VGvEAM6wEfCTVOkEGwXjxQ" name="Location" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aXz8EM6wEfCTVOkEGwXjxQ" name="OfficerID" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dK1dUM6wEfCTVOkEGwXjxQ" name="IsSynchronized" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ASDesM6xEfCTVOkEGwXjxQ" name="" visibility="package" type="_0cliAM6vEfCTVOkEGwXjxQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kdvDMM6wEfCTVOkEGwXjxQ" name="SyncCoordinator">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pxYHEM6wEfCTVOkEGwXjxQ" name="EventQueue List" visibility="private" type="_0cliAM6vEfCTVOkEGwXjxQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iQmAwM6xEfCTVOkEGwXjxQ" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iQnO4M6xEfCTVOkEGwXjxQ" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tQBiwM6xEfCTVOkEGwXjxQ" name="EnqueueEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_zqZlMM6xEfCTVOkEGwXjxQ" name="event" type="_0cliAM6vEfCTVOkEGwXjxQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BEsAEM6yEfCTVOkEGwXjxQ" name="ProcessQueue">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EHUDkM6yEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <nestedClassifier xmi:type="uml:Association" xmi:id="_I80vEM60EfCTVOkEGwXjxQ" memberEnd="_I80vE860EfCTVOkEGwXjxQ _I80vFM60EfCTVOkEGwXjxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I80vEc60EfCTVOkEGwXjxQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I80vEs60EfCTVOkEGwXjxQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_I80vE860EfCTVOkEGwXjxQ" name="eventrepository" type="_kdvDMM6wEfCTVOkEGwXjxQ" aggregation="composite" association="_I80vEM60EfCTVOkEGwXjxQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_I80vFM60EfCTVOkEGwXjxQ" name="eventmanagercontroller" type="_yQzR0M6tEfCTVOkEGwXjxQ" association="_I80vEM60EfCTVOkEGwXjxQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I80vFc60EfCTVOkEGwXjxQ" name="LiteralInteger1" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I80vFs60EfCTVOkEGwXjxQ" name="LiteralUnlimitedNatural1" value="1"/>
+      </ownedEnd>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0MKq8M6wEfCTVOkEGwXjxQ" name="List" visibility="private"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_MI3fMM6yEfCTVOkEGwXjxQ" name="MessagePublisherr"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fujFUM6yEfCTVOkEGwXjxQ" name="EventManagement">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iva1UM6yEfCTVOkEGwXjxQ" name="CreateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_twyRAM6yEfCTVOkEGwXjxQ" name="Details" type="_T-1SsM6uEfCTVOkEGwXjxQ"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yJKmgM6yEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lnlVQM6yEfCTVOkEGwXjxQ" name="ModifyEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1ErVYM6yEfCTVOkEGwXjxQ" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3qSFsM6yEfCTVOkEGwXjxQ" name="Updates" type="_T-1SsM6uEfCTVOkEGwXjxQ"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6Cbo0M6yEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__1wSUM6yEfCTVOkEGwXjxQ" name="DeleteEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BhfbYM6zEfCTVOkEGwXjxQ" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DeqSsM6zEfCTVOkEGwXjxQ" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_H79kcM6zEfCTVOkEGwXjxQ" client="_XAM00L7-EfCFWfIa1pIK_g" supplier="_MI3fMM6yEfCTVOkEGwXjxQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_djLkgM6zEfCTVOkEGwXjxQ" memberEnd="_djTgUM6zEfCTVOkEGwXjxQ _djVVgM6zEfCTVOkEGwXjxQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_djRrIM6zEfCTVOkEGwXjxQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_djSSMM6zEfCTVOkEGwXjxQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_djTgUM6zEfCTVOkEGwXjxQ" name="eventrepository" type="_rbb5UM6pEfCYjpoq6se-mw" aggregation="composite" association="_djLkgM6zEfCTVOkEGwXjxQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_djVVgM6zEfCTVOkEGwXjxQ" name="eventmanagercontroller" type="_yQzR0M6tEfCTVOkEGwXjxQ" association="_djLkgM6zEfCTVOkEGwXjxQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DEJEcM60EfCTVOkEGwXjxQ" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DEJEcc60EfCTVOkEGwXjxQ" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_fschoM60EfCTVOkEGwXjxQ" client="_yQzR0M6tEfCTVOkEGwXjxQ" supplier="_fujFUM6yEfCTVOkEGwXjxQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-RWOYM60EfCTVOkEGwXjxQ" memberEnd="_-RYDks60EfCTVOkEGwXjxQ _-RYqoM60EfCTVOkEGwXjxQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-RYDkM60EfCTVOkEGwXjxQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-RYDkc60EfCTVOkEGwXjxQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-RYDks60EfCTVOkEGwXjxQ" name="event" type="_0cliAM6vEfCTVOkEGwXjxQ" association="_-RWOYM60EfCTVOkEGwXjxQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TNKhAM61EfCTVOkEGwXjxQ" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TNLIEM61EfCTVOkEGwXjxQ" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-RYqoM60EfCTVOkEGwXjxQ" name="eventrepository" type="_rbb5UM6pEfCYjpoq6se-mw" aggregation="shared" association="_-RWOYM60EfCTVOkEGwXjxQ"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GOjCQL8OEfCFWfIa1pIK_g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GOn6wL8OEfCFWfIa1pIK_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
