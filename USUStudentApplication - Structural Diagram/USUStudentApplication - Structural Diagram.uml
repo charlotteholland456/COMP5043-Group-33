@@ -137,6 +137,14 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_wP3MkM-kEfCEFONPev422w" name="CheckPassword">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4hKUYM-kEfCEFONPev422w" name="StudentPassword">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DBnbYM-lEfCEFONPev422w" name="StudentID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_qRZw8MSqEfC5K_fFD2VJ3Q" memberEnd="_qR3D8MSqEfC5K_fFD2VJ3Q _qR3rAcSqEfC5K_fFD2VJ3Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qRq2sMSqEfC5K_fFD2VJ3Q" source="org.eclipse.papyrus">
@@ -190,7 +198,7 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_c0hqMMSsEfC5K_fFD2VJ3Q" name="userdatabase" type="_GPQYYMSqEfC5K_fFD2VJ3Q" association="_c0bjkMSsEfC5K_fFD2VJ3Q"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_nudVkM0aEfCI4oWSuDbdHw" name="Authenticate">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_nudVkM0aEfCI4oWSuDbdHw" name="Check Permission">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_ugcmwM0aEfCI4oWSuDbdHw" name="SetStudyProgramPermitted">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_1oK3YM0aEfCI4oWSuDbdHw" name="StudentIDNumber">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
