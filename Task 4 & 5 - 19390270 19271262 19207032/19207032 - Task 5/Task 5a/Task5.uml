@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JjDVoMqjEfCeCZXMtBpjXg" name="Task5">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Jke5AMqjEfCeCZXMtBpjXg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oZcwIMqlEfCeCZXMtBpjXg" name="AddReview">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DbwBYMq9EfCeCZXMtBpjXg" name="addEventReview"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EFh-MMq9EfCeCZXMtBpjXg" name="addMembersReview"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6xoBUMqlEfCeCZXMtBpjXg" name="ReviewNotification">
+    <nestedClassifier xmi:type="uml:Signal" xmi:id="_PYLT8Mq5EfCeCZXMtBpjXg" name="Signal1"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_KJDHMMq6EfCeCZXMtBpjXg" name="DataType1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rmExQMqyEfCeCZXMtBpjXg" name="Members">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vx0UwMq5EfCeCZXMtBpjXg" name="getEventReview" bodyCondition="_dJAKEMq6EfCeCZXMtBpjXg">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_C6PXIMq6EfCeCZXMtBpjXg" name="Constraint1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_C6t4QMq6EfCeCZXMtBpjXg" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:InteractionConstraint" xmi:id="_dJAKEMq6EfCeCZXMtBpjXg" name="InteractionConstraint1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_dJGQsMq6EfCeCZXMtBpjXg" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yhqHsMrQEfCmq43-JJkwQw" name="getMemberReview"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V-FgsMqoEfCeCZXMtBpjXg" name="ReviewManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nW5hocrfEfCmq43-JJkwQw" name="reviewdatabase" type="__zbRAMrWEfCmq43-JJkwQw" association="_nW2eUMrfEfCmq43-JJkwQw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nW6IsMrfEfCmq43-JJkwQw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nW6IscrfEfCmq43-JJkwQw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_qLSu8MqqEfCeCZXMtBpjXg" name="Authenticate">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tm_c8MquEfCeCZXMtBpjXg" name="ValidationSessionToken">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xn5oEMqxEfCeCZXMtBpjXg" name="ValidateUser">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <protocol xmi:type="uml:ProtocolStateMachine" xmi:id="_Mp6QgMqxEfCeCZXMtBpjXg" name="ProtocolStateMachine1"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NMwRUMrREfCmq43-JJkwQw" name="addEventReviewPermitted"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NvjcYMrREfCmq43-JJkwQw" name="addMemberReviewPermitted"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_yfmUMMq6EfCeCZXMtBpjXg" client="_JjDVoMqjEfCeCZXMtBpjXg" supplier="_6xoBUMqlEfCeCZXMtBpjXg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_9dQUkMq6EfCeCZXMtBpjXg" client="_JjDVoMqjEfCeCZXMtBpjXg" supplier="_oZcwIMqlEfCeCZXMtBpjXg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZGR-sMq-EfCeCZXMtBpjXg" client="_V-FgsMqoEfCeCZXMtBpjXg" supplier="_JjDVoMqjEfCeCZXMtBpjXg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EgNlsMrWEfCmq43-JJkwQw" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VCynMMrWEfCmq43-JJkwQw" name="eventId">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YbRl8MrWEfCmq43-JJkwQw" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_aaKUgMrWEfCmq43-JJkwQw" name="review"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mfuYIMrWEfCmq43-JJkwQw" name="address">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HLqJMMrfEfCmq43-JJkwQw" name="review" type="_WFp1kMraEfCmq43-JJkwQw" association="_HLi0cMrfEfCmq43-JJkwQw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HLqwQMrfEfCmq43-JJkwQw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HLrXUMrfEfCmq43-JJkwQw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__zbRAMrWEfCmq43-JJkwQw" name="reviewDataBase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1h3LgsrfEfCmq43-JJkwQw" name="review" type="_WFp1kMraEfCmq43-JJkwQw" aggregation="composite" association="_1h0vQMrfEfCmq43-JJkwQw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1h3ykMrfEfCmq43-JJkwQw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1h3ykcrfEfCmq43-JJkwQw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Kt-TAMrXEfCmq43-JJkwQw" name="searchEventReview"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L_ygMMrXEfCmq43-JJkwQw" name="searchMembersReview"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YTiw0MrXEfCmq43-JJkwQw" name="addEventReview"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cxMA0MrXEfCmq43-JJkwQw" name="addMembersReview"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R3fd8MrYEfCmq43-JJkwQw" name="reviewSummary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_olqfAMrYEfCmq43-JJkwQw" name="averageRating">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pX50QMrYEfCmq43-JJkwQw" name="commentsSummary">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_76hWsMrfEfCmq43-JJkwQw" name="review" type="_WFp1kMraEfCmq43-JJkwQw" aggregation="shared" association="_76dsUMrfEfCmq43-JJkwQw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_76h9wMrfEfCmq43-JJkwQw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_76h9wcrfEfCmq43-JJkwQw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qaUTgMrYEfCmq43-JJkwQw" name="tojSONString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_J1uKcMrZEfCmq43-JJkwQw" name="eventReview">
+    <generalization xmi:type="uml:Generalization" xmi:id="_S1dg4Mq-EfCeCZXMtBpjXg" general="_WFp1kMraEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UzAXYMrZEfCmq43-JJkwQw" name="membersReview">
+    <generalization xmi:type="uml:Generalization" xmi:id="_T0yP4Mq-EfCeCZXMtBpjXg" general="_WFp1kMraEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WFp1kMraEfCmq43-JJkwQw" name="review">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dMq7kMraEfCmq43-JJkwQw" name="event_Id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dvetsMraEfCmq43-JJkwQw" name="startRating">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eN_OoMraEfCmq43-JJkwQw" name="comments">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e7nJoMraEfCmq43-JJkwQw" name="setReview"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HLi0cMrfEfCmq43-JJkwQw" memberEnd="_HLqJMMrfEfCmq43-JJkwQw _HLrXUcrfEfCmq43-JJkwQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HLo7EMrfEfCmq43-JJkwQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HLpiIMrfEfCmq43-JJkwQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HLrXUcrfEfCmq43-JJkwQw" name="event" type="_EgNlsMrWEfCmq43-JJkwQw" association="_HLi0cMrfEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nW2eUMrfEfCmq43-JJkwQw" memberEnd="_nW5hocrfEfCmq43-JJkwQw _nW6vwMrfEfCmq43-JJkwQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nW46kMrfEfCmq43-JJkwQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nW5hoMrfEfCmq43-JJkwQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nW6vwMrfEfCmq43-JJkwQw" name="reviewmanager" type="_V-FgsMqoEfCeCZXMtBpjXg" association="_nW2eUMrfEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1h0vQMrfEfCmq43-JJkwQw" memberEnd="_1h3LgsrfEfCmq43-JJkwQw _1h3yksrfEfCmq43-JJkwQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1h3LgMrfEfCmq43-JJkwQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1h3LgcrfEfCmq43-JJkwQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1h3yksrfEfCmq43-JJkwQw" name="reviewdatabase" type="__zbRAMrWEfCmq43-JJkwQw" association="_1h0vQMrfEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_76dsUMrfEfCmq43-JJkwQw" memberEnd="_76hWsMrfEfCmq43-JJkwQw _76h9wsrfEfCmq43-JJkwQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_76gvoMrfEfCmq43-JJkwQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_76gvocrfEfCmq43-JJkwQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_76h9wsrfEfCmq43-JJkwQw" name="reviewsummary" type="_R3fd8MrYEfCmq43-JJkwQw" association="_76dsUMrfEfCmq43-JJkwQw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_m8g4EMqlEfCeCZXMtBpjXg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m88V4MqlEfCeCZXMtBpjXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+</uml:Model>
