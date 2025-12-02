@@ -1,0 +1,38 @@
+Meeting Agenda - Eleventh Meeting
+Date: Wednesday 3rd December 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our Behaviour and Structural Models for each sub-system. 
+We have written our group report, regarding the Applied Software Engineering project. 
+Each of us have written our individual reports for the project. 
+We have all finalised our Software Engineering diagrams on Papyrus, and committed the changes to GitHub.
+We have started creating the System Architecture Model for the whole Union system, combining all the sub-systems together. 
+
+Cross-checking the Behaviour/Structural Models:
+As we have all created the behaviour models, we will cross-check them. Therefore, we can provide recommendations for improvements. 
+We will also cross-check each other’s structural models for each sub-system. 
+
+The Progress of the Team Work Report:
+Charlotte will explain the progress of writing the team work report to everyone, so that we all have the same understanding. 
+
+Discuss the Progress of the Whole System Architecture Model:
+We will discuss the progress of the whole Software Architecture models, while planning the upcoming stages of completing the model. 
+
+Uploading the Software Engineering Project:
+Charlotte is going to remind everyone about the process of uploading the Software Architecture, as potentially we will be using the 2 week extension. 
+
+Actions to take place after the meeting:
+We will all finalise our diagrams for our Software Engineering diagrams, including individual and group diagrams/models. 
+We will all finalise our individual report for the Software Engineering project. 
+
+Issues to be solved:
+Discuss any confusion and uncertainties related to the collaborative project. 
+Identify any issues that require further clarification from the lecturer or through additional research. 
