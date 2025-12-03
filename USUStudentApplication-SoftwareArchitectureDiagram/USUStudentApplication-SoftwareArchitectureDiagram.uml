@@ -65,8 +65,9 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_oJsGUL7zEfCt3L5Hc083jQ" name="StudentSubsystem-CloudServices">
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_XzX4sMLkEfCL083Ra94ypQ" name="Authenticate"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_XzX4sMLkEfCL083Ra94ypQ" name="Check Permissions"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_ZjpjgMLkEfCL083Ra94ypQ" name="Check Data Input"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_hBnBEM-hEfCEFONPev422w" name="Create Society"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_276v8MLiEfCL083Ra94ypQ" name="Authentication Manager">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_krHnMMLkEfCL083Ra94ypQ" client="_276v8MLiEfCL083Ra94ypQ" supplier="_XzX4sMLkEfCL083Ra94ypQ" contract="_XzX4sMLkEfCL083Ra94ypQ"/>
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_44so4MLmEfCL083Ra94ypQ" client="_276v8MLiEfCL083Ra94ypQ" supplier="_vbPFYMLlEfCL083Ra94ypQ" contract="_vbPFYMLlEfCL083Ra94ypQ"/>
@@ -80,11 +81,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_4BrosMLjEfCL083Ra94ypQ" name="Society Manager">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_x5JnYMLnEfCL083Ra94ypQ" client="_4BrosMLjEfCL083Ra94ypQ" supplier="_9fOkkMLlEfCL083Ra94ypQ" contract="_9fOkkMLlEfCL083Ra94ypQ"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_86XQoM-hEfCEFONPev422w" client="_4BrosMLjEfCL083Ra94ypQ" supplier="_hBnBEM-hEfCEFONPev422w" contract="_hBnBEM-hEfCEFONPev422w"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_33A0UMLkEfCL083Ra94ypQ" client="_4BrosMLjEfCL083Ra94ypQ" supplier="_XzX4sMLkEfCL083Ra94ypQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_-RRXcMLjEfCL083Ra94ypQ" name="Society Application Service">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bLRr0MLoEfCL083Ra94ypQ" client="_-RRXcMLjEfCL083Ra94ypQ" supplier="_NC3RkMLmEfCL083Ra94ypQ" contract="_NC3RkMLmEfCL083Ra94ypQ"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_wCDDMMLkEfCL083Ra94ypQ" client="_-RRXcMLjEfCL083Ra94ypQ" supplier="_XzX4sMLkEfCL083Ra94ypQ"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_-L2tsM-hEfCEFONPev422w" client="_-RRXcMLjEfCL083Ra94ypQ" supplier="_hBnBEM-hEfCEFONPev422w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_D1kGcMLkEfCL083Ra94ypQ" name="Event Service">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-Cka0MLoEfCL083Ra94ypQ" client="_D1kGcMLkEfCL083Ra94ypQ" supplier="_SD5igMLmEfCL083Ra94ypQ" contract="_SD5igMLmEfCL083Ra94ypQ"/>
@@ -96,7 +99,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_tEepYMLlEfCL083Ra94ypQ" name="Authentication"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_vbPFYMLlEfCL083Ra94ypQ" name="Authentication"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vbPFYMLlEfCL083Ra94ypQ" name="Authenticate"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_xTpYgMLlEfCL083Ra94ypQ" name="Registration"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_zlRc4MLlEfCL083Ra94ypQ" name="Registration"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_2RFi4MLlEfCL083Ra94ypQ" name="Update Data"/>

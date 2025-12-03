@@ -33,12 +33,14 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yfMXoLm7EfCQCJgiyuUBxQ" name="ExtensionPoint2"/>
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eYnZALm9EfCQCJgiyuUBxQ" name="Get Tickets for Event" subject="__bEIoLAtEfCwDIzn2lPEGg">
-      <generalization xmi:type="uml:Generalization" xmi:id="_Bln5ULm-EfCQCJgiyuUBxQ" general="_2x6fILm9EfCQCJgiyuUBxQ"/>
-      <generalization xmi:type="uml:Generalization" xmi:id="_DcetQLm-EfCQCJgiyuUBxQ" general="_zXdKcLm9EfCQCJgiyuUBxQ"/>
       <extend xmi:type="uml:Extend" xmi:id="_yZCaYLm9EfCQCJgiyuUBxQ" extendedCase="_5nc6YLHREfCGxr5Yw3rBZg" extensionLocation="_yZCaYbm9EfCQCJgiyuUBxQ"/>
     </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zXdKcLm9EfCQCJgiyuUBxQ" name="Register for Event" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2x6fILm9EfCQCJgiyuUBxQ" name="Buy Tickets for Event" subject="__bEIoLAtEfCwDIzn2lPEGg"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zXdKcLm9EfCQCJgiyuUBxQ" name="Register for Event" subject="__bEIoLAtEfCwDIzn2lPEGg">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jj3ioM_GEfCvt5BXVNv3rQ" general="_eYnZALm9EfCQCJgiyuUBxQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2x6fILm9EfCQCJgiyuUBxQ" name="Buy Tickets for Event" subject="__bEIoLAtEfCwDIzn2lPEGg">
+      <generalization xmi:type="uml:Generalization" xmi:id="_m_8A4M_GEfCvt5BXVNv3rQ" general="_eYnZALm9EfCQCJgiyuUBxQ"/>
+    </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tPxmkL1XEfCCgojud2sFFw" name="View Information of a society" subject="__bEIoLAtEfCwDIzn2lPEGg">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dklDkL1YEfCCgojud2sFFw" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rYW8gL1YEfCCgojud2sFFw" name="ExtensionPoint2"/>
