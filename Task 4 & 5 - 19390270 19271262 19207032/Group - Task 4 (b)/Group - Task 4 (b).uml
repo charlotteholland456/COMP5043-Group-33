@@ -430,11 +430,11 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="_WB9-sM_YEfCQ1JH-gLtS6Q" name="Authentication" client="_CGjksM_OEfCQA4fBxvzwWA" supplier="_sqo6sMq0EfCzAvPA4LfwYA"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_21MuwM_ZEfCQ1JH-gLtS6Q" name="Registration"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_zkz0sM_cEfCfhLPiBRuRmQ" name="Create event"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_zkz0sM_cEfCfhLPiBRuRmQ" name="createEvent"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="__GnD8M_cEfCfhLPiBRuRmQ" name="addReview"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Z22MQM_dEfCfhLPiBRuRmQ" name="Registration"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_Z3V7gM_dEfCfhLPiBRuRmQ" client="_21MuwM_ZEfCQ1JH-gLtS6Q" supplier="_Z22MQM_dEfCfhLPiBRuRmQ"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_6aonkM_dEfCfhLPiBRuRmQ" name="Create event"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6aonkM_dEfCfhLPiBRuRmQ" name="createEvent"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_6bI94M_dEfCfhLPiBRuRmQ" client="_zkz0sM_cEfCfhLPiBRuRmQ" supplier="_6aonkM_dEfCfhLPiBRuRmQ"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_5ZxLAM_eEfCfhLPiBRuRmQ" name="addReview"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_5aKMkM_eEfCfhLPiBRuRmQ" client="__GnD8M_cEfCfhLPiBRuRmQ" supplier="_5ZxLAM_eEfCfhLPiBRuRmQ"/>
