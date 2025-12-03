@@ -428,7 +428,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_CWqxEM7NEfCTVOkEGwXjxQ" client="_9ImJsM7MEfCTVOkEGwXjxQ" supplier="_oj5Hwcq0EfCzAvPA4LfwYA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_WB9-sM_YEfCQ1JH-gLtS6Q" client="_CGjksM_OEfCQA4fBxvzwWA" supplier="_sqo6sMq0EfCzAvPA4LfwYA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WB9-sM_YEfCQ1JH-gLtS6Q" name="Authentication" client="_CGjksM_OEfCQA4fBxvzwWA" supplier="_sqo6sMq0EfCzAvPA4LfwYA"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_21MuwM_ZEfCQ1JH-gLtS6Q" name="Registration"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_zkz0sM_cEfCfhLPiBRuRmQ" name="Create event"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="__GnD8M_cEfCfhLPiBRuRmQ" name="addReview"/>

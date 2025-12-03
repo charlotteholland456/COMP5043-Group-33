@@ -1915,15 +1915,15 @@
   <edges xmi:type="notation:Connector" xmi:id="_WCN2UM_YEfCQ1JH-gLtS6Q" type="Usage_Edge" source="_CG14kM_OEfCQA4fBxvzwWA" target="_1cYjwMU7EfCnYPI_a4gGdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_WCOdYM_YEfCQ1JH-gLtS6Q" type="Usage_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Zq0UsM_YEfCQ1JH-gLtS6Q" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WCPEcM_YEfCQ1JH-gLtS6Q" x="2" y="57"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WCPEcM_YEfCQ1JH-gLtS6Q" x="289" y="15"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_WCPEcc_YEfCQ1JH-gLtS6Q" type="Usage_StereotypeLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZrKS8M_YEfCQ1JH-gLtS6Q" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WCPEcs_YEfCQ1JH-gLtS6Q" x="1" y="28"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WCPEcs_YEfCQ1JH-gLtS6Q" x="6" y="15"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_WCN2Uc_YEfCQ1JH-gLtS6Q"/>
     <element xmi:type="uml:Usage" href="Group%20-%20Task%204%20(b).uml#_WB9-sM_YEfCQ1JH-gLtS6Q"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WCN2Us_YEfCQ1JH-gLtS6Q" points="[1920, 80, -643984, -643984]$[1880, 80, -643984, -643984]$[1880, 0, -643984, -643984]$[600, 0, -643984, -643984]$[600, 100, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WCN2Us_YEfCQ1JH-gLtS6Q" points="[1980, 80, -643984, -643984]$[1880, 80, -643984, -643984]$[1880, 0, -643984, -643984]$[660, 0, -643984, -643984]$[620, 40, -643984, -643984]$[600, 100, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WCuzsM_YEfCQ1JH-gLtS6Q" id="(0.0,0.5714285714285714)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WCuzsc_YEfCQ1JH-gLtS6Q" id="(0.0,0.0)"/>
   </edges>
