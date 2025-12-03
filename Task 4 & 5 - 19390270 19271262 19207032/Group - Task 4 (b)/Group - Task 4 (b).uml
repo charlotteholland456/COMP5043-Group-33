@@ -49,7 +49,7 @@
       </packagedElement>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_oj5HwMq0EfCzAvPA4LfwYA" name="Services">
+  <packagedElement xmi:type="uml:Component" xmi:id="_oj5HwMq0EfCzAvPA4LfwYA" name="Cloud Services">
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_oj5Hwcq0EfCzAvPA4LfwYA" name="Authenticate"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_oj5Hwsq0EfCzAvPA4LfwYA" name="Notify Members"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_oj5Hw8q0EfCzAvPA4LfwYA" name="Union Operations Service">
@@ -159,6 +159,7 @@
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_qj__ecuSEfCJ-Z1jbi0v4w" name="View Events"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_qj__esuSEfCJ-Z1jbi0v4w" name="Register to Events"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_qj__e8uSEfCJ-Z1jbi0v4w" name="Manage Event Subscriptions"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_WqkQsNCREfCjNeo8PYQVgQ" name="Get Session Token"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__fMuSEfCJ-Z1jbi0v4w" name="Student Data Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__fcuSEfCJ-Z1jbi0v4w" client="_qj__fMuSEfCJ-Z1jbi0v4w" supplier="_qj__dMuSEfCJ-Z1jbi0v4w" contract="_qj__dMuSEfCJ-Z1jbi0v4w"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__fsuSEfCJ-Z1jbi0v4w" client="_qj__fMuSEfCJ-Z1jbi0v4w" supplier="_qj__c8uSEfCJ-Z1jbi0v4w" contract="_qj__c8uSEfCJ-Z1jbi0v4w"/>
@@ -169,6 +170,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__gcuSEfCJ-Z1jbi0v4w" client="_qj__fMuSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_2RFi4MLlEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_1qnc0NCbEfCjNeo8PYQVgQ" client="_qj__fMuSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__gsuSEfCJ-Z1jbi0v4w" name="Society Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__g8uSEfCJ-Z1jbi0v4w" client="_qj__gsuSEfCJ-Z1jbi0v4w" supplier="_qj__dcuSEfCJ-Z1jbi0v4w" contract="_qj__dcuSEfCJ-Z1jbi0v4w"/>
@@ -177,6 +179,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__hsuSEfCJ-Z1jbi0v4w" client="_qj__gsuSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_6gGhAMLlEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kQ7NINCbEfCjNeo8PYQVgQ" client="_qj__gsuSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__h8uSEfCJ-Z1jbi0v4w" name="Communications Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__iMuSEfCJ-Z1jbi0v4w" client="_qj__h8uSEfCJ-Z1jbi0v4w" supplier="_qj__d8uSEfCJ-Z1jbi0v4w" contract="_qj__d8uSEfCJ-Z1jbi0v4w"/>
@@ -184,6 +187,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__isuSEfCJ-Z1jbi0v4w" client="_qj__h8uSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_CLEBkMLmEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Y5sPINCbEfCjNeo8PYQVgQ" client="_qj__h8uSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__i8uSEfCJ-Z1jbi0v4w" name="Society Applications Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__jMuSEfCJ-Z1jbi0v4w" client="_qj__i8uSEfCJ-Z1jbi0v4w" supplier="_qj__eMuSEfCJ-Z1jbi0v4w" contract="_qj__eMuSEfCJ-Z1jbi0v4w"/>
@@ -191,6 +195,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__jsuSEfCJ-Z1jbi0v4w" client="_qj__i8uSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_Kz44kMLmEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_SrkgANCbEfCjNeo8PYQVgQ" client="_qj__i8uSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__j8uSEfCJ-Z1jbi0v4w" name="Events Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__kMuSEfCJ-Z1jbi0v4w" client="_qj__j8uSEfCJ-Z1jbi0v4w" supplier="_qj__ecuSEfCJ-Z1jbi0v4w" contract="_qj__ecuSEfCJ-Z1jbi0v4w"/>
@@ -200,6 +205,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__lMuSEfCJ-Z1jbi0v4w" client="_qj__j8uSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_P_OVAMLmEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_t_C_oNCYEfCjNeo8PYQVgQ" client="_qj__j8uSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__lcuSEfCJ-Z1jbi0v4w" name="Students GUI">
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__lsuSEfCJ-Z1jbi0v4w" client="_qj__lcuSEfCJ-Z1jbi0v4w" supplier="_qj__ccuSEfCJ-Z1jbi0v4w"/>
@@ -212,13 +218,16 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__ncuSEfCJ-Z1jbi0v4w" client="_qj__lcuSEfCJ-Z1jbi0v4w" supplier="_qj__ecuSEfCJ-Z1jbi0v4w"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__nsuSEfCJ-Z1jbi0v4w" client="_qj__lcuSEfCJ-Z1jbi0v4w" supplier="_qj__esuSEfCJ-Z1jbi0v4w"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__n8uSEfCJ-Z1jbi0v4w" client="_qj__lcuSEfCJ-Z1jbi0v4w" supplier="_qj__e8uSEfCJ-Z1jbi0v4w"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="__ge6QNCREfCjNeo8PYQVgQ" client="_qj__lcuSEfCJ-Z1jbi0v4w" supplier="_oj4gscq0EfCzAvPA4LfwYA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_qj__oMuSEfCJ-Z1jbi0v4w" name="Cloud Connection Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__ocuSEfCJ-Z1jbi0v4w" client="_qj__oMuSEfCJ-Z1jbi0v4w" supplier="_qj__ccuSEfCJ-Z1jbi0v4w" contract="_qj__ccuSEfCJ-Z1jbi0v4w"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qj__osuSEfCJ-Z1jbi0v4w" client="_qj__oMuSEfCJ-Z1jbi0v4w" supplier="_qj__csuSEfCJ-Z1jbi0v4w" contract="_qj__csuSEfCJ-Z1jbi0v4w"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_b6eR0NCWEfCjNeo8PYQVgQ" client="_qj__oMuSEfCJ-Z1jbi0v4w" supplier="_WqkQsNCREfCjNeo8PYQVgQ" contract="_WqkQsNCREfCjNeo8PYQVgQ"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_qj__o8uSEfCJ-Z1jbi0v4w" client="_qj__oMuSEfCJ-Z1jbi0v4w">
         <supplier xmi:type="uml:Interface" href="../../USUStudentApplication-SoftwareArchitectureDiagram/USUStudentApplication-SoftwareArchitectureDiagram.uml#_tEepYMLlEfCL083Ra94ypQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_EkvJMNCQEfCjNeo8PYQVgQ" client="_qj__oMuSEfCJ-Z1jbi0v4w" supplier="_oj4gscq0EfCzAvPA4LfwYA"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_LJggsM7CEfCTVOkEGwXjxQ" name="USU OS Application">
