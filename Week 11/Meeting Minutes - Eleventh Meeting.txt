@@ -1,0 +1,41 @@
+Meeting Minutes - Eleventh Meeting
+Date: Wednesday 3rd December 2025 
+Time: 13:00pm till 14:00pm
+Location: Online
+
+Attendees to attend: 
+Charlotte Smale-Holland (19313496)
+Ryan Hogan (19390270)
+Gauthier Lihau (19207032)
+Gonzalez Rodrigues (19271262) 	
+
+Progress Since Previous Meeting (State of Completed Actions)
+We have all created our Behaviour and Structural Models for each sub-system. 
+We have written our group report regarding the Applied Software Engineering project. 
+Each of us have written our individual reports for the project. 
+We have all finalised our Software Engineering diagrams on Papyrus, and committed the changes to GitHub.
+We have started creating the System Architecture Model for the whole Union system, combining all the sub-systems together. 
+
+Cross-checking the Behaviour/Structural Models:
+Regarding Ryan’s diagram, Charlotte has noticed that the behavioural diagram looks almost consistent. However, he is unable to make improvements to the diagram because it is frozen. 
+Regarding Gauthier’s diagram, Ryan and Gonzales cannot see any improvements to the behavioural diagram that need to be made. 
+Regarding Gonzalez's diagram, Charlotte noticed confusion as the lifeline bars are overlapping. We also noticed that he has used a couple of the wrong type of arrows. Also, the Papyrus program on Gonzalez’s pc’s seems to have a bug as it’s not showing task 5B correctly on his pc.
+Regarding Charlotte’s diagram, everyone could not see any big improvements that need to be made. However, she will check it with the lecturer. 
+
+The Progress of the Team Work Report:
+Charlotte has written the majority of the team work report, but the last section of the report still needs to be improved. 
+
+Discuss the Progress of the Whole System Architecture Model:
+So far, most of us have worked on the whole System Architecture model. However, Charlotte is going to finalise the system architecture this week before Friday. 
+
+Uploading the Software Engineering Project:
+Charlotte has reminded everyone about the process of uploading the Software Architecture, as potentially we will be using the 2 week extension. 
+She has told the module leader we are using the extension, just in case something goes badly wrong on Friday. 
+
+Actions to take place after the meeting:
+Finish all of the individual reports for the software engineering diagrams. 
+We will ensure that all our finalised diagrams are saved as PNG images and committed to github. 
+Finalise the group report for the project. 
+Charlotte will make final modifications to the system architecture model. 
+Issues to be solved:
+We haven’t got any issues that need to be resolved. 
