@@ -92,6 +92,15 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_oj5H1Mq0EfCzAvPA4LfwYA" name="Notification Management Service">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oj5H1cq0EfCzAvPA4LfwYA" client="_oj5H1Mq0EfCzAvPA4LfwYA" supplier="_oj5Hwsq0EfCzAvPA4LfwYA" contract="_oj5Hwsq0EfCzAvPA4LfwYA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FwrsEM_ZEfCQ1JH-gLtS6Q" name="ReviewManager Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="__HHaQM_cEfCfhLPiBRuRmQ" client="_FwrsEM_ZEfCQ1JH-gLtS6Q" supplier="__GnD8M_cEfCfhLPiBRuRmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Nn6HAM_ZEfCQ1JH-gLtS6Q" name="CreateEvent Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_zlPSgM_cEfCfhLPiBRuRmQ" client="_Nn6HAM_ZEfCQ1JH-gLtS6Q" supplier="_zkz0sM_cEfCfhLPiBRuRmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_RlmEkM_ZEfCQ1JH-gLtS6Q" name="EventDatabase Service">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_21wvcM_ZEfCQ1JH-gLtS6Q" client="_RlmEkM_ZEfCQ1JH-gLtS6Q" supplier="_21MuwM_ZEfCQ1JH-gLtS6Q"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_sql3YMq0EfCzAvPA4LfwYA" name="Manage Operations"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_sqnFgMq0EfCzAvPA4LfwYA" name="Manage Membership"/>
@@ -117,7 +126,26 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_oj4gu8q0EfCzAvPA4LfwYA" client="_oj4guMq0EfCzAvPA4LfwYA" supplier="_oj4gtMq0EfCzAvPA4LfwYA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_jJJ-gMuSEfCJ-Z1jbi0v4w" name="Society Leader Application"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_jJJ-gMuSEfCJ-Z1jbi0v4w" name="Society Leader Application">
+    <packagedElement xmi:type="uml:Component" xmi:id="_hqjB0M_MEfCQA4fBxvzwWA" name="CreateEvent">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_xFMqkM_PEfCQA4fBxvzwWA" client="_hqjB0M_MEfCQA4fBxvzwWA" supplier="_oj4gt8q0EfCzAvPA4LfwYA" contract="_oj4gt8q0EfCzAvPA4LfwYA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_p8RiQM_eEfCfhLPiBRuRmQ" client="_hqjB0M_MEfCQA4fBxvzwWA" supplier="_6aonkM_dEfCfhLPiBRuRmQ" contract="_6aonkM_dEfCfhLPiBRuRmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HXfvUM_NEfCQA4fBxvzwWA" name="ReviewManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CrB7AM_fEfCfhLPiBRuRmQ" client="_HXfvUM_NEfCQA4fBxvzwWA" supplier="_5ZxLAM_eEfCfhLPiBRuRmQ" contract="_5ZxLAM_eEfCfhLPiBRuRmQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_p8lzsM_QEfCQA4fBxvzwWA" client="_HXfvUM_NEfCQA4fBxvzwWA" supplier="_oj4gt8q0EfCzAvPA4LfwYA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_CGjksM_OEfCQA4fBxvzwWA" name="CloudConnectionManager">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_6qxTIM_OEfCQA4fBxvzwWA" client="_CGjksM_OEfCQA4fBxvzwWA" supplier="_oj4gscq0EfCzAvPA4LfwYA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__ZHKMM_REfCQA4fBxvzwWA" name="EventDataBase">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_NXtgIM_fEfCfhLPiBRuRmQ" client="__ZHKMM_REfCQA4fBxvzwWA" supplier="_Z22MQM_dEfCfhLPiBRuRmQ" contract="_Z22MQM_dEfCfhLPiBRuRmQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_GkeksM_SEfCQA4fBxvzwWA" client="__ZHKMM_REfCQA4fBxvzwWA" supplier="_oj4gt8q0EfCzAvPA4LfwYA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_JjxqkM_WEfCQ1JH-gLtS6Q" name="EventManager">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_yY8QwM_XEfCQ1JH-gLtS6Q" name="Notify" client="_JjxqkM_WEfCQ1JH-gLtS6Q" supplier="_oj5Hwsq0EfCzAvPA4LfwYA"/>
+    </packagedElement>
+  </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_lNAFkMuSEfCJ-Z1jbi0v4w" name="USU Operating System"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_qj__cMuSEfCJ-Z1jbi0v4w" name="USUStudentApplication">
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_qj__ccuSEfCJ-Z1jbi0v4w" name="Login"/>
@@ -400,4 +428,14 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_CWqxEM7NEfCTVOkEGwXjxQ" client="_9ImJsM7MEfCTVOkEGwXjxQ" supplier="_oj5Hwcq0EfCzAvPA4LfwYA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_WB9-sM_YEfCQ1JH-gLtS6Q" client="_CGjksM_OEfCQA4fBxvzwWA" supplier="_sqo6sMq0EfCzAvPA4LfwYA"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_21MuwM_ZEfCQ1JH-gLtS6Q" name="Registration"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_zkz0sM_cEfCfhLPiBRuRmQ" name="Create event"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="__GnD8M_cEfCfhLPiBRuRmQ" name="addReview"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Z22MQM_dEfCfhLPiBRuRmQ" name="Registration"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Z3V7gM_dEfCfhLPiBRuRmQ" client="_21MuwM_ZEfCQ1JH-gLtS6Q" supplier="_Z22MQM_dEfCfhLPiBRuRmQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_6aonkM_dEfCfhLPiBRuRmQ" name="Create event"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6bI94M_dEfCfhLPiBRuRmQ" client="_zkz0sM_cEfCfhLPiBRuRmQ" supplier="_6aonkM_dEfCfhLPiBRuRmQ"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_5ZxLAM_eEfCfhLPiBRuRmQ" name="addReview"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_5aKMkM_eEfCfhLPiBRuRmQ" client="__GnD8M_cEfCfhLPiBRuRmQ" supplier="_5ZxLAM_eEfCfhLPiBRuRmQ"/>
 </uml:Model>
