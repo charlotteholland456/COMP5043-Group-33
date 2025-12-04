@@ -3,6 +3,9 @@
   <ownedComment xmi:type="uml:Comment" xmi:id="_tXIxgMYYEfCgl7z3WJ2zIg" annotatedElement="_tUC2sMYXEfCgl7z3WJ2zIg">
     <body>Stores/Read  Events</body>
   </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_JySf0NEXEfCgY4ydgs-vyQ">
+    <body>THIS IS AN EMPTY FILE WHICH I WAS NOT ABLE TO DELETE COMPLETELY. PLEASE, CHECK THE OTHERS 2 FILE TO SEE TASK 4A AND TASK 5A. THANKS</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_XFgyoL7-EfCFWfIa1pIK_g">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>

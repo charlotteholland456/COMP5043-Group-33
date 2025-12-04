@@ -812,6 +812,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_Ncm6gL8FEfCFWfIa1pIK_g" type="CompositeStructure" name="Task 4 A" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_JyU8ENEXEfCgY4ydgs-vyQ" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JyWKMNEXEfCgY4ydgs-vyQ" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="Task%204%20(A).uml#_JySf0NEXEfCgY4ydgs-vyQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JyU8EdEXEfCgY4ydgs-vyQ" x="200" y="140" width="401" height="121"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Ncm6gb8FEfCFWfIa1pIK_g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Ncm6gr8FEfCFWfIa1pIK_g"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Ncm6g78FEfCFWfIa1pIK_g" diagramKindId="org.eclipse.papyrus.uml.diagram.compositeStructure.root.package">
