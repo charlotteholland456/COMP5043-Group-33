@@ -11,14 +11,14 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGic7rEfCz1Ohr6Bf10w" x="5" y="5"/>
             </children>
             <element xmi:type="uml:InteractionOperand" href="Task%205%20B.uml#_UEwn0M7rEfCz1Ohr6Bf10w"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGh87rEfCz1Ohr6Bf10w" width="1261" height="426"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGh87rEfCz1Ohr6Bf10w" width="1261" height="686"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_UFBGg87rEfCz1Ohr6Bf10w"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_UFBGhM7rEfCz1Ohr6Bf10w"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGhc7rEfCz1Ohr6Bf10w"/>
         </children>
         <element xmi:type="uml:CombinedFragment" href="Task%205%20B.uml#_UErvUM7rEfCz1Ohr6Bf10w"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGgc7rEfCz1Ohr6Bf10w" x="74" y="160" width="1261" height="441"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UFBGgc7rEfCz1Ohr6Bf10w" x="74" y="160" width="1261" height="701"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_J3QVMM7vEfCz1Ohr6Bf10w" type="CombinedFragment_Shape">
         <children xmi:type="notation:BasicCompartment" xmi:id="_J3QVMs7vEfCz1Ohr6Bf10w" type="CombinedFragment_SubfragmentCompartment">
@@ -70,6 +70,40 @@
         </children>
         <element xmi:type="uml:CombinedFragment" href="Task%205%20B.uml#_jhK5MM7wEfCz1Ohr6Bf10w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jhbX4c7wEfCz1Ohr6Bf10w" x="1034" y="380" width="200" height="40"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_TjF9cNEVEfCgY4ydgs-vyQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_TjGkgNEVEfCgY4ydgs-vyQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_TjGkhNEVEfCgY4ydgs-vyQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_TjHLkNEVEfCgY4ydgs-vyQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Task%205%20B.uml#_Tb030dEVEfCgY4ydgs-vyQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjHLkdEVEfCgY4ydgs-vyQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Task%205%20B.uml#_Tb030NEVEfCgY4ydgs-vyQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjGkhdEVEfCgY4ydgs-vyQ" width="1040" height="65"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_TjGkgdEVEfCgY4ydgs-vyQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_TjGkgtEVEfCgY4ydgs-vyQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjGkg9EVEfCgY4ydgs-vyQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Task%205%20B.uml#_TbzCoNEVEfCgY4ydgs-vyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TjF9cdEVEfCgY4ydgs-vyQ" x="314" y="460" width="1040" height="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d4tGYNEVEfCgY4ydgs-vyQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_d4ttcNEVEfCgY4ydgs-vyQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_d4ttdNEVEfCgY4ydgs-vyQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_d4ttdtEVEfCgY4ydgs-vyQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Task%205%20B.uml#_d4Ur4dEVEfCgY4ydgs-vyQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d4ttd9EVEfCgY4ydgs-vyQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Task%205%20B.uml#_d4Ur4NEVEfCgY4ydgs-vyQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d4ttddEVEfCgY4ydgs-vyQ" x="-80" width="1320" height="225"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_d4ttcdEVEfCgY4ydgs-vyQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_d4ttctEVEfCgY4ydgs-vyQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d4ttc9EVEfCgY4ydgs-vyQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Task%205%20B.uml#_d4SPoNEVEfCgY4ydgs-vyQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d4tGYdEVEfCgY4ydgs-vyQ" x="74" y="620" width="1320" height="240"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_H2rhYM7rEfCz1Ohr6Bf10w" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_H2uksM7rEfCz1Ohr6Bf10w" type="Lifeline_NameLabel"/>
@@ -323,7 +357,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_PXn-wc71EfCz1Ohr6Bf10w"/>
     <element xmi:type="uml:Message" href="Task%205%20B.uml#_PXWR8M71EfCz1Ohr6Bf10w"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PXn-ws71EfCz1Ohr6Bf10w" points="[-10, -20, -10, -20]$[52, -20, 52, -20]$[-10, 0, -10, 0]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PXn-ws71EfCz1Ohr6Bf10w" points="[-10, 0, -10, -20]$[52, 0, 52, -20]$[52, 20, 52, 0]$[-10, 20, -10, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PYN0oM71EfCz1Ohr6Bf10w" id="(0.5,0.5310734463276836)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PYObsM71EfCz1Ohr6Bf10w" id="(0.5,0.5536723163841808)"/>
   </edges>
